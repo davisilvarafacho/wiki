@@ -1,0 +1,12 @@
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+.vscode/
+.idea/
