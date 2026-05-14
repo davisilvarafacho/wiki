@@ -37,6 +37,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/rag]] — Retrieval-Augmented Generation; re-derivação de conhecimento por query
 
 ### Entidades
+
+#### Autores
+*(vazio)*
+
+#### Outras
 - [[tecnico/entities/memex]] — dispositivo hipotético de Vannevar Bush (1945); precursor conceitual da wiki pessoal
 - [[tecnico/entities/obsidian]] — editor markdown local; "IDE da wiki" no padrão LLM Wiki
 - [[tecnico/entities/qmd]] — motor de busca local BM25/vector para arquivos markdown
@@ -58,6 +63,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 *(vazio)*
 
 ### Entidades
+
+#### Autores
+*(vazio)*
+
+#### Outras
 *(vazio)*
 
 ### Sumários de fontes
@@ -77,6 +87,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 *(vazio)*
 
 ### Entidades
+
+#### Autores
+*(vazio)*
+
+#### Outras
 *(vazio)*
 
 ### Sumários de fontes
@@ -96,6 +111,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 *(vazio)*
 
 ### Entidades
+
+#### Autores
+*(vazio)*
+
+#### Outras
 *(vazio)*
 
 ### Sumários de fontes
@@ -115,6 +135,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 *(vazio)*
 
 ### Entidades
+
+#### Autores
+*(vazio)*
+
+#### Outras
 *(vazio)*
 
 ### Sumários de fontes
@@ -134,6 +159,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 *(vazio)*
 
 ### Entidades
+
+#### Autores
+*(vazio)*
+
+#### Outras
 *(vazio)*
 
 ### Sumários de fontes

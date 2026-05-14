@@ -65,4 +65,11 @@ Conexões registradas em `_meta/connections.md`:
 - LLM Wiki como padrão transversal a todos os domínios
 - Memex (Bush 1945) como antecedente histórico do LLM Wiki
 
-Nota: esta é a primeira fonte ingerida. É também o documento fundacional do próprio padrão que esta wiki implementa — meta-aplicação do conceito.
+## [2026-05-14 20:06] schema-update | Convenção de autores como entidade
+
+- Subpasta `entities/autores/` adicionada em todos os domínios (tecnico, pessoal, espiritual, estudos, empresarial, rafacho.dev)
+- Frontmatter estendido para autores: `entity_tipo`, `area`, `formacao`, `nacionalidade`, `link_principal`
+- Regras de lar canônico e cross-domain definidas no `CLAUDE.md`
+- No ingest, stub em `entities/autores/` criado automaticamente quando fonte tem campo `autor` sem página correspondente
+- `_meta/index.md` atualizado: seção "Entidades" de cada domínio subdivida em "Autores" e "Outras"
+

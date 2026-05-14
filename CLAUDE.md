@@ -67,6 +67,38 @@ Cada domínio replica exatamente esta estrutura:
 
 - **`synthesis/`** — Páginas de síntese maior. Onde a compreensão do usuário sobre um tema aparece de forma consolidada, frequentemente cruzando múltiplas fontes/conceitos. Ex: `arquitetura-django-pessoal.md`, `o-que-significa-graca.md`. Estas páginas têm seção `## Evolução` obrigatória.
 
+### Convenção: entidades-autor
+
+Autores são entidades de primeira classe na wiki. Cada autor ganha página própria
+em `<dominio>/entities/autores/<slug>.md`, com frontmatter específico:
+
+```yaml
+---
+title: "Nome do autor"
+tipo: entity
+entity_tipo: autor
+dominio: <dominio-canonico>
+area: [área principal de atuação, ex: databases, teologia-reformada]
+formacao: "Resumo da formação — onde estudou, títulos relevantes"
+nacionalidade: "..."
+link_principal: https://...
+tags: [...]
+criado: AAAA-MM-DD
+atualizado: AAAA-MM-DD
+---
+```
+
+**Regras:**
+
+- No ingest, quando o campo `autor` do frontmatter da fonte apontar para alguém
+  sem página, criar stub em `<dominio>/entities/autores/`.
+- Lar canônico: o domínio onde o autor mais aparece. Autores cross-domain
+  (ex: alguém que escreve sobre teologia e negócio) ficam num único lar
+  canônico e são linkados do outro lado via `[[link]]`, sem duplicar página.
+- Página de autor deve ter ao menos: sumário em prosa de quem é, lista de
+  obras/fontes citadas na wiki (links para `sources/`), e — quando aplicável —
+  posições centrais (links para `concepts/` que ele influenciou).
+
 ### Exceções autorizadas ao padrão
 
 Alguns domínios podem ter natureza dupla e justificar **subpastas adicionais** além das 5 padrão. A regra: nunca remover nenhuma das 5 padrão, só adicionar. Toda exceção deve estar documentada aqui.
@@ -100,6 +132,9 @@ atualizado: 2026-05-14
 fontes: [link-para-source-1, link-para-source-2]   # opcional, para concepts/entities/synthesis
 ---
 ```
+
+> Para autores, ver a convenção em "Entidades-autor" — frontmatter estendido
+> com `entity_tipo`, `area`, `formacao`, `nacionalidade`, `link_principal`.
 
 ### Frontmatter adicional para fontes web (`raw/` e `<dominio>/sources/`)
 
