@@ -101,6 +101,26 @@ fontes: [link-para-source-1, link-para-source-2]   # opcional, para concepts/ent
 ---
 ```
 
+### Frontmatter adicional para fontes web (`raw/` e `<dominio>/sources/`)
+
+Quando a fonte original for uma página web, o frontmatter recebe campos extras:
+
+```yaml
+---
+title: "..."
+tipo: source
+dominio: ...
+url: https://...                    # URL original
+autor: "Nome do Autor"              # se identificável
+publicado: 2023-04-15               # data original de publicação (não a de captura)
+capturado: 2026-05-14               # quando entrou no raw/
+tipo_fonte: web-article | blog-post | docs | paper
+tags: [...]
+---
+```
+
+Esses campos são preservados ao propagar do arquivo em `raw/` para a página de sumário em `<dominio>/sources/`.
+
 ### Links
 
 Use sintaxe Obsidian-style: `[[caminho/relativo/sem-extensao]]` ou `[[nome-da-pagina]]` quando único na wiki.
@@ -123,25 +143,48 @@ Esta é a coluna vertebral do **histórico de pensamento** — uma das prioridad
 
 ---
 
+## Protocolos de captura de fontes
+
+### Fontes HTML (web)
+
+Páginas web sempre são convertidas para markdown antes de entrar em `raw/`. A wiki não armazena HTML nem links sozinhos como fonte — toda fonte web tem que existir como arquivo `.md` em `raw/<dominio>/`.
+
+**Ferramentas recomendadas:**
+
+- **Obsidian Web Clipper** (GUI, browser extension) — fluxo principal para captura interativa.
+- **markitdown** (CLI, Microsoft) — fluxo para automação ou quando o browser não é prático. Instalação: `pip install 'markitdown[all]'`. Uso: `markitdown <URL> -o <destino>.md`.
+
+**Workflow:**
+
+1. Capturar a página via Obsidian Web Clipper ou `markitdown`.
+2. Salvar em `raw/<dominio>/AAAA-MM-DD-<slug>.md`, onde a data é a **data de publicação original** do artigo (não a data de captura). Se a data original não estiver disponível, usar a data de captura e registrar isso no frontmatter.
+3. Garantir o frontmatter de fonte web (ver seção "Frontmatter adicional para fontes web" acima).
+4. **Imagens:** baixar para `raw/assets/` apenas se forem essenciais ao conteúdo (diagramas, gráficos, screenshots de código). Imagens decorativas podem ser ignoradas. Atualizar os links no markdown para apontar para o arquivo local.
+5. **Limpeza do markdown:** remover navegação, footer, banners de cookie, blocos "leia também", comentários, ads. Manter apenas: título, autor/data, corpo do artigo, blocos de código, imagens essenciais.
+6. Prosseguir com o workflow normal de **Ingest**.
+
+---
+
 ## Operações (workflows)
 
 ### 1. Ingest
 
 Quando o usuário fornecer uma fonte (arquivo em `raw/`, link, texto colado):
 
-1. **Leia a fonte completa.**
-2. **Identifique o domínio.** Se ambíguo, pergunte ao usuário.
-3. **Discuta brevemente os pontos-chave** com o usuário antes de escrever. Confirme entendimento.
-4. **Escreva a página de source** em `<dominio>/sources/AAAA-MM-DD-<slug>.md` com: sumário em 5–15 bullets, citações relevantes (curtas, com referência), takeaways, e links para conceitos/entidades que vão ser criados ou atualizados.
-5. **Crie/atualize páginas relacionadas:**
+1. **Se for um link web:** aplicar primeiro o protocolo "Fontes HTML (web)" para gerar o arquivo `.md` em `raw/`. Se o usuário já forneceu o arquivo `.md`, pular este passo.
+2. **Leia a fonte completa.**
+3. **Identifique o domínio.** Se ambíguo, pergunte ao usuário.
+4. **Discuta brevemente os pontos-chave** com o usuário antes de escrever. Confirme entendimento.
+5. **Escreva a página de source** em `<dominio>/sources/AAAA-MM-DD-<slug>.md` com: sumário em 5–15 bullets, citações relevantes (curtas, com referência), takeaways, e links para conceitos/entidades que vão ser criados ou atualizados. Propague o frontmatter de fonte web (url, autor, publicado, etc.) do arquivo `raw/` para a página de sumário.
+6. **Crie/atualize páginas relacionadas:**
    - Conceitos novos mencionados → criar em `concepts/` (mesmo que stub)
    - Entidades novas → criar em `entities/` (mesmo que stub)
    - Conceitos/entidades existentes → atualizar, integrando informação nova
    - Se a fonte contradiz algo já registrado → flag na página afetada com `> [!warning] Conflito com [[outra-fonte]]: ...`
-6. **Atualizar `_meta/index.md`** com as novas páginas.
-7. **Detectar conexões cross-domain.** Se a fonte traz uma ideia que ressoa com outro domínio, registrar em `_meta/connections.md`.
-8. **Acrescentar entrada em `_meta/log.md`** com prefixo `## [AAAA-MM-DD HH:MM] ingest | <título da fonte>` seguido de bullets do que foi tocado.
-9. **Resumir o que foi feito** para o usuário ao final, listando arquivos tocados.
+7. **Atualizar `_meta/index.md`** com as novas páginas.
+8. **Detectar conexões cross-domain.** Se a fonte traz uma ideia que ressoa com outro domínio, registrar em `_meta/connections.md`.
+9. **Acrescentar entrada em `_meta/log.md`** com prefixo `## [AAAA-MM-DD HH:MM] ingest | <título da fonte>` seguido de bullets do que foi tocado.
+10. **Resumir o que foi feito** para o usuário ao final, listando arquivos tocados.
 
 **Regra:** uma única fonte deveria tocar tipicamente entre 5 e 15 páginas. Se tocou só uma, você provavelmente foi superficial. Se tocou mais que 15, provavelmente diluiu.
 
@@ -199,6 +242,7 @@ Se o usuário disser que quer começar um domínio novo (ex: "vou começar a est
 - **Não duplicar conceitos entre domínios.** Se "comunicação" aparece em `pessoal/` e em `empresarial/`, decida qual é o lar canônico e cruze do outro lado.
 - **Não inventar conexões.** Cross-links só quando há ressonância conceitual real.
 - **Não fazer ingest em batch sem confirmação explícita do usuário.**
+- **Não armazenar fontes web como HTML ou link solto.** Toda fonte web vira `.md` em `raw/` antes de qualquer coisa (ver "Protocolos de captura de fontes").
 
 ---
 

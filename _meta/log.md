@@ -38,8 +38,31 @@ grep "^## \[" log.md | tail -10
 - `raw/rafacho.dev/` criado
 - Referências adicionadas em `_meta/index.md`
 
-## [2026-05-14] schema-update | Princípio de extensibilidade ao estilo SRP
+## [2026-05-14 18:51] schema-update | Princípio de extensibilidade ao estilo SRP
 
 - Adicionado princípio fundamental #5 no `CLAUDE.md`: "Extensibilidade ao estilo SRP"
 - Formaliza a preferência do dono: exceções ao padrão fractal são **aditivas**, nunca substitutivas
 - Justificativa registrada: preserva previsibilidade, permite migração de exceções para o padrão, mantém o schema como histórico de decisões
+
+## [2026-05-14 18:52] ingest | LLM Wiki — Andrej Karpathy
+
+Fonte: `raw/tecnico/llm-wiki-karpathy.md`
+
+Páginas criadas:
+- `tecnico/sources/2026-05-14-llm-wiki-karpathy.md`
+- `tecnico/concepts/llm-wiki.md`
+- `tecnico/concepts/rag.md`
+- `tecnico/entities/obsidian.md`
+- `tecnico/entities/qmd.md`
+- `tecnico/entities/memex.md`
+
+Páginas atualizadas:
+- `tecnico/_index.md`
+- `_meta/index.md`
+- `_meta/connections.md`
+
+Conexões registradas em `_meta/connections.md`:
+- LLM Wiki como padrão transversal a todos os domínios
+- Memex (Bush 1945) como antecedente histórico do LLM Wiki
+
+Nota: esta é a primeira fonte ingerida. É também o documento fundacional do próprio padrão que esta wiki implementa — meta-aplicação do conceito.

@@ -18,4 +18,15 @@ Programação, arquitetura de software, devops, decisões técnicas. Stack princ
 - [[synthesis/]] — minha visão consolidada sobre temas técnicos
 
 ## Páginas
-*(vazio — será populado conforme ingest)*
+
+### Conceitos
+- [[concepts/llm-wiki]] — padrão de wiki pessoal mantida por LLM; conhecimento compilado incrementalmente
+- [[concepts/rag]] — Retrieval-Augmented Generation; re-derivação de conhecimento por query
+
+### Entidades
+- [[entities/memex]] — dispositivo hipotético de Vannevar Bush (1945); precursor conceitual da wiki pessoal
+- [[entities/obsidian]] — editor markdown local; "IDE da wiki" no padrão LLM Wiki
+- [[entities/qmd]] — motor de busca local BM25/vector para arquivos markdown
+
+### Fontes
+- [[sources/2026-05-14-llm-wiki-karpathy]] — Andrej Karpathy: padrão LLM Wiki (documento fundacional desta wiki)

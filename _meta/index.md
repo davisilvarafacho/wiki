@@ -33,13 +33,16 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Técnico
 
 ### Conceitos
-*(vazio)*
+- [[tecnico/concepts/llm-wiki]] — padrão de wiki pessoal mantida por LLM; conhecimento compilado incrementalmente
+- [[tecnico/concepts/rag]] — Retrieval-Augmented Generation; re-derivação de conhecimento por query
 
 ### Entidades
-*(vazio)*
+- [[tecnico/entities/memex]] — dispositivo hipotético de Vannevar Bush (1945); precursor conceitual da wiki pessoal
+- [[tecnico/entities/obsidian]] — editor markdown local; "IDE da wiki" no padrão LLM Wiki
+- [[tecnico/entities/qmd]] — motor de busca local BM25/vector para arquivos markdown
 
 ### Sumários de fontes
-*(vazio)*
+- [[tecnico/sources/2026-05-14-llm-wiki-karpathy]] — Andrej Karpathy: padrão LLM Wiki (documento fundacional desta wiki)
 
 ### Notas
 *(vazio)*
