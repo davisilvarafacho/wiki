@@ -65,6 +65,25 @@ Conexões registradas em `_meta/connections.md`:
 - LLM Wiki como padrão transversal a todos os domínios
 - Memex (Bush 1945) como antecedente histórico do LLM Wiki
 
+## [2026-05-14 21:03] ingest | The Part of PostgreSQL We Hate the Most (Andy Pavlo)
+
+Fonte: `raw/tecnico/2026-05-14 The Part of PostgreSQL We Hate the Most.md`
+
+Páginas criadas:
+- `tecnico/sources/2026-05-14-postgresql-mvcc-the-part-we-hate-the-most.md`
+- `tecnico/concepts/mvcc.md`
+- `tecnico/concepts/table-bloat.md`
+- `tecnico/concepts/hot-update.md`
+- `tecnico/concepts/autovacuum.md`
+- `tecnico/entities/postgresql.md`
+- `tecnico/entities/autores/andy-pavlo.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/log.md`
+
+---
+
 ## [2026-05-14 20:06] schema-update | Convenção de autores como entidade
 
 - Subpasta `entities/autores/` adicionada em todos os domínios (tecnico, pessoal, espiritual, estudos, empresarial, rafacho.dev)
