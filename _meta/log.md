@@ -82,7 +82,27 @@ Páginas atualizadas:
 - `_meta/index.md`
 - `_meta/log.md`
 
----
+## [2026-05-15 17:47] ingest | How DNS Works (Dhruv Prajapati, FreeCodeCamp)
+
+Fonte: `raw/tecnico/2026-05-15 How DNS Works A Guide to Understanding the Internet's Address Book.md`
+
+Páginas criadas:
+- `tecnico/sources/2026-05-15-how-dns-works.md`
+- `tecnico/concepts/dns.md`
+- `tecnico/concepts/anycast.md`
+- `tecnico/concepts/glue-records.md`
+- `tecnico/entities/autores/dhruv-prajapati.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/log.md`
+
+Destaques do ingest:
+- DNS como conceito central: hierarquia root → TLD → authoritative; resolução recursiva em 5 etapas
+- Anycast: conceito transversal (DNS + CDNs) que merecia página própria
+- Glue records: mecanismo específico e elegante para resolver dependência circular de bootstrapping
+- TTL como variável crítica em migrações DNS — ponto prático importante
+
 
 ## [2026-05-14] ingest | What is a Tech Lead? (Josh Hornby)
 
