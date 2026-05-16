@@ -84,6 +84,26 @@ Páginas atualizadas:
 
 ---
 
+## [2026-05-14] ingest | What is a Tech Lead? (Josh Hornby)
+
+Fonte: `raw/tecnico/2026-05-14 What is a Tech Lead.md`
+
+Páginas criadas:
+- `tecnico/sources/2026-05-14-what-is-a-tech-lead.md`
+- `tecnico/concepts/tech-lead.md`
+- `tecnico/concepts/trabalho-alavancado.md`
+- `tecnico/entities/autores/josh-hornby.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/connections.md`
+
+Conexões registradas:
+- tech-lead ↔ empresarial: tensão entre entregar e desenvolver pessoas ressoa com gestão organizacional
+- trabalho-alavancado ↔ pessoal: conceito de multiplicador aplica-se também a hábitos e desenvolvimento pessoal
+
+---
+
 ## [2026-05-14 20:06] schema-update | Convenção de autores como entidade
 
 - Subpasta `entities/autores/` adicionada em todos os domínios (tecnico, pessoal, espiritual, estudos, empresarial, rafacho.dev)

@@ -32,6 +32,20 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** O padrão LLM Wiki (Karpathy) não é só uma técnica de engenharia de conhecimento — é a fundação desta wiki inteira. Cada domínio (devocional, journal, empresarial, estudos) é uma instância do mesmo padrão. O schema em `CLAUDE.md` é o "terceiro layer" descrito no paper.
 - **Detectada em:** 2026-05-14
 
+### Tech Lead: tensão entre entregar e desenvolver pessoas
+
+- **Domínios:** tecnico ↔ empresarial
+- **Páginas:** [[tecnico/concepts/tech-lead]] ↔ `empresarial/concepts/` (a preencher)
+- **Descrição:** A tensão central do tech lead — garantir entrega vs. investir no crescimento do time — é a mesma vivida por qualquer líder em contexto organizacional. O que Hornby descreve para engenharia vale igualmente para gestão de produto, liderança de squads e founders com time técnico.
+- **Detectada em:** 2026-05-14
+
+### Trabalho alavancado: multiplicador técnico e pessoal
+
+- **Domínios:** tecnico ↔ pessoal
+- **Páginas:** [[tecnico/concepts/trabalho-alavancado]] ↔ `pessoal/concepts/` (a preencher)
+- **Descrição:** O conceito de "leveraged work" do tech lead — esforços cujo impacto persiste e se multiplica depois que você saiu — ressoa com a ideia de desenvolvimento de hábitos e sistemas pessoais. Criar um sistema que funciona sem você presente é a mesma lógica, aplicada ao indivíduo.
+- **Detectada em:** 2026-05-14
+
 ### Memex → LLM Wiki: problema antigo, solução nova
 
 - **Domínios:** tecnico ↔ estudos
