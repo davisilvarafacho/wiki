@@ -269,6 +269,12 @@ Se o usuário disser que quer começar um domínio novo (ex: "vou começar a est
 
 ---
 
+## Git
+
+- **Nunca usar git worktrees.** Todo trabalho deve ser feito diretamente na branch `main`. Worktrees causam conflitos de merge difíceis de rastrear neste repositório.
+
+---
+
 ## Coisas que NÃO fazer
 
 - **Não modificar `raw/`** sob hipótese alguma.
