@@ -17,6 +17,26 @@ grep "^## \[" log.md | tail -10
 
 ---
 
+## [2026-05-17] ingest | Não ignore a manutenção da sua vida (Pinho, YouTube)
+
+Fonte: `raw/pessoal/2026-05-17-nao-ignore-a-manutencao-da-sua-vida.md`
+
+Páginas criadas:
+- `pessoal/sources/2026-05-17-nao-ignore-a-manutencao-da-sua-vida.md`
+- `pessoal/concepts/manutencao-da-vida.md`
+- `pessoal/concepts/conquista-vs-manutencao.md`
+- `pessoal/entities/autores/pinho.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/connections.md`
+
+Conexões registradas:
+- `pessoal/manutencao-da-vida` ↔ `tecnico/autovacuum`: negligência com juros compostos é o mesmo problema que o PostgreSQL resolve com autovacuum
+- `pessoal/conquista-vs-manutencao` ↔ `tecnico/trabalho-alavancado`: manutenção de hábitos como trabalho alavancado pessoal
+
+---
+
 ## [2026-05-14] setup | Wiki inicializada
 
 - Estrutura criada com 5 domínios: tecnico, pessoal, espiritual, estudos, negocio
