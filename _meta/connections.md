@@ -1,6 +1,7 @@
 ---
 title: "Conexões cross-domain"
 tipo: meta
+criado: 2026-05-14
 atualizado: 2026-05-14
 ---
 
@@ -94,6 +95,13 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Páginas:** [[pessoal/concepts/gratidao]] ↔ `espiritual/concepts/` (a preencher)
 - **Descrição:** A gratidão como reconhecimento ativo do presente tem fundamento teológico na doutrina da providência — Deus sustenta o presente, e reconhecer isso é resposta adequada à realidade, não apenas técnica de bem-estar (cf. Filipenses 4:6).
 - **Detectada em:** 2026-05-17
+
+### VRAG e multimodalidade: tema com potencial para rafacho.dev
+
+- **Domínios:** tecnico ↔ rafacho.dev
+- **Páginas:** [[tecnico/concepts/vrag]] ↔ `rafacho.dev/production/ideias/` (a criar)
+- **Descrição:** VRAG e a evolução do RAG para o mundo visual é um tema técnico relevante e em alta (2025-2026). Além de conteúdo técnico para o canal, o VimRAG (Grafo de Memória Multimodal) pode ser abordado em comparação com o padrão LLM Wiki — tensão entre sistema de busca vs. sistema de síntese.
+- **Detectada em:** 2026-05-18
 
 ### Manutenção da vida pessoal ↔ manutenção de banco de dados
 

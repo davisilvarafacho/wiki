@@ -2,6 +2,7 @@
 title: "Domínio: Técnico"
 tipo: domain-index
 dominio: tecnico
+criado: 2026-05-14
 atualizado: 2026-05-14
 ---
 

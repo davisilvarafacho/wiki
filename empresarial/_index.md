@@ -2,6 +2,7 @@
 title: "Domínio: Negócio"
 tipo: domain-index
 dominio: empresarial
+criado: 2026-05-14
 atualizado: 2026-05-14
 ---
 

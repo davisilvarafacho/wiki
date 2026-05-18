@@ -1,6 +1,7 @@
 ---
 title: "Índice Global"
 tipo: meta
+criado: 2026-05-14
 atualizado: 2026-05-14
 ---
 
@@ -48,6 +49,9 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/table-bloat]] — crescimento excessivo de tabelas por acúmulo de dead tuples; VACUUM regular não devolve espaço ao SO
 - [[tecnico/concepts/tech-lead]] — papel de liderança técnica híbrido; direção técnica + crescimento do time + entrega
 - [[tecnico/concepts/trabalho-alavancado]] — esforços que multiplicam capacidade do time muito depois de você ter seguido em frente
+- [[tecnico/concepts/vimrag]] — Visual Memory RAG; evolução do VRAG com Grafo de Memória Multimodal para contextos visuais massivos; stub
+- [[tecnico/concepts/vlm]] — Vision-Language Model; modelos que processam texto e imagens nativamente; base do VRAG; stub
+- [[tecnico/concepts/vrag]] — VRAG (Visual RAG, Alibaba-NLP); RAG para dados visuais com VLMs, raciocínio iterativo agêntico e VRAG-RL
 
 ### Entidades
 
@@ -58,6 +62,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/entities/autores/waldemar-neto]] — dev brasileiro, canal Dev Lab; criador de TLC Spec Driven e framework PBQ; foco em harness engineering
 
 #### Outras
+- [[tecnico/entities/alibaba-nlp]] — grupo de pesquisa em NLP/IA do Alibaba; autores do VRAG e VimRAG; série Qwen de VLMs
 - [[tecnico/entities/memex]] — dispositivo hipotético de Vannevar Bush (1945); precursor conceitual da wiki pessoal
 - [[tecnico/entities/obsidian]] — editor markdown local; "IDE da wiki" no padrão LLM Wiki
 - [[tecnico/entities/postgresql]] — DBMS relacional open-source; o mais popular para novas aplicações; MVCC append-only é seu maior problema
@@ -71,7 +76,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/sources/2026-05-17-harness-engineering-waldemar-neto]] — Waldemar Neto: harness engineering como próximo passo além de spec driven; 6 falhas de agentes, feed forward vs. feedback, multi-agent orchestration
 
 ### Notas
-*(vazio)*
+- [[tecnico/notes/2026-05-18-vrag-alibaba]] — nota derivada de conversa com Qwen 3.6 Plus; como funciona o VRAG do Alibaba (Visual RAG, raciocínio iterativo, VRAG-RL, VimRAG)
 
 ### Sínteses
 *(vazio)*

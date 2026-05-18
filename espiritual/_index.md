@@ -2,6 +2,7 @@
 title: "Domínio: Espiritual"
 tipo: domain-index
 dominio: espiritual
+criado: 2026-05-14
 atualizado: 2026-05-14
 ---
 
