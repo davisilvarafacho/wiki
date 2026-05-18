@@ -52,3 +52,9 @@ RAG é adequado para grandes corpora onde ingest completo é inviável. Para bas
 - OpenAI Embeddings, sentence-transformers — geração de embeddings
 
 > [!note] RAG e LLM Wiki não são mutuamente exclusivos. Em wikis grandes, pode-se usar [[qmd]] (busca BM25/vector local) dentro de um fluxo de LLM Wiki — o melhor dos dois mundos.
+
+---
+
+## Evolução: VRAG
+
+O [[vrag]] (Visual RAG, Alibaba-NLP) estende o RAG para dados visuais: usa [[vlm|VLMs]] para perceber imagens diretamente (em vez de OCR → texto), adiciona raciocínio iterativo agêntico e treino com Reinforcement Learning (VRAG-RL). O processo deixa de ser "recuperar → gerar" e passa a ser "perceber → raciocinar → refinar → gerar".
