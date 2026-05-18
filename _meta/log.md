@@ -122,6 +122,23 @@ Conexões registradas:
 - tech-lead ↔ empresarial: tensão entre entregar e desenvolver pessoas ressoa com gestão organizacional
 - trabalho-alavancado ↔ pessoal: conceito de multiplicador aplica-se também a hábitos e desenvolvimento pessoal
 
+## [2026-05-17 00:00] ingest | Nada é difícil, só é novo pra você (Pinho)
+
+Fonte: `raw/pessoal/2026-05-17-nada-e-dificil-so-e-novo.md` — vídeo YouTube
+
+Páginas criadas:
+- `pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo.md`
+- `pessoal/concepts/novidade-vs-dificuldade.md`
+- `pessoal/concepts/mecanismo-de-protecao-cerebral.md`
+- `pessoal/concepts/dedicacao-vs-talento.md`
+- `pessoal/entities/autores/pinho.md`
+
+Páginas atualizadas:
+- `pessoal/_index.md`
+- `_meta/index.md`
+
+Primeiro ingest do domínio `pessoal/`. Tese central: dificuldade percebida é quase sempre novidade disfarçada, amplificada pelo mecanismo de proteção cerebral e pelo hábito cultural de reclamação. Antídoto: dedicação consistente com interesse genuíno — que é exatamente o que o senso comum chama de talento.
+
 ---
 
 ## [2026-05-17] ingest | Discurso de formatura em Stanford — Steve Jobs (2005)
