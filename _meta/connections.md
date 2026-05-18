@@ -60,6 +60,13 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** A prática estóica de lembrar da morte como ferramenta de clareza tem paralelo na teologia reformada — a consciência da finitude e da eternidade como critério para avaliar o que tem peso real. A diferença central: para Jobs, a morte revela o que importa *para você*; para a fé cristã, a morte revela o que importa *à luz de Deus*.
 - **Detectada em:** 2026-05-17
 
+### Harness Engineering: relevância direta para rafacho.dev
+
+- **Domínios:** tecnico ↔ rafacho.dev
+- **Páginas:** [[tecnico/concepts/harness-engineering]] ↔ `rafacho.dev/` (domínio de produção de conteúdo)
+- **Descrição:** Harness Engineering e spec driven são temas diretamente relevantes para o canal rafacho.dev — tanto como conteúdo a produzir (o assunto está em alta, fevereiro-maio 2026) quanto como método de trabalho para desenvolver projetos demonstrados no canal. O framework PBQ do Waldemar Neto pode ser ponto de comparação ou ponto de partida para um vídeo próprio.
+- **Detectada em:** 2026-05-17
+
 ### Memex → LLM Wiki: problema antigo, solução nova
 
 - **Domínios:** tecnico ↔ estudos

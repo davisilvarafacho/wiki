@@ -145,6 +145,33 @@ Conexões registradas em `_meta/connections.md`:
 - vocação ↔ trabalho-alavancado (pessoal ↔ tecnico): amor genuíno pelo trabalho como condição para multiplicar impacto
 - memento-mori ↔ discernimento espiritual (pessoal ↔ espiritual): paralelo entre clareza estóica da morte e perspectiva cristã da eternidade
 
+---
+
+## [2026-05-17] ingest | Harness Engineering é o próximo passo (Waldemar Neto - Dev Lab)
+
+Fonte: YouTube — https://www.youtube.com/watch?v=dLs-Pbn8stU
+
+Páginas criadas:
+- `tecnico/sources/2026-05-17-harness-engineering-waldemar-neto.md`
+- `tecnico/concepts/harness-engineering.md`
+- `tecnico/concepts/feed-forward.md`
+- `tecnico/concepts/multi-agent-orchestration.md`
+- `tecnico/concepts/spec-driven.md` (stub)
+- `tecnico/entities/autores/waldemar-neto.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/log.md`
+- `_meta/connections.md`
+
+Destaques do ingest:
+- Harness como conceito unificador: o ambiente operacional ao redor do modelo é o que transforma LLM em agente confiável
+- Distinção feed forward / feedback vinda da engenharia de controle — útil para avaliar qualquer framework de agentes
+- As 6 falhas documentadas pela Anthropic são um checklist prático para auditar workflows com agentes
+- Multi-agent orchestration com contratos explícitos é a peça que spec driven sozinho não cobre
+
+---
+
 ## [2026-05-14 20:06] schema-update | Convenção de autores como entidade
 
 - Subpasta `entities/autores/` adicionada em todos os domínios (tecnico, pessoal, espiritual, estudos, empresarial, rafacho.dev)
