@@ -75,18 +75,20 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Pessoal
 
 ### Conceitos
-*(vazio)*
+- [[pessoal/concepts/conectar-os-pontos]] — só é possível ligar experiências passadas em retrospecto; confiança no processo como condição para seguir o coração
+- [[pessoal/concepts/memento-mori]] — consciência da mortalidade como filtro do essencial; dissolve o ruído de expectativas externas e medo de perda
+- [[pessoal/concepts/vocacao]] — encontro entre o que se faz e o que se ama; o que sustenta nos momentos de colapso externo
 
 ### Entidades
 
 #### Autores
-*(vazio)*
+- [[pessoal/entities/autores/steve-jobs]] — cofundador Apple, NeXT e Pixar; referência em vocação, design e visão de vida
 
 #### Outras
 *(vazio)*
 
 ### Sumários de fontes
-*(vazio)*
+- [[pessoal/sources/2005-06-12-discurso-stanford-steve-jobs]] — Steve Jobs: três histórias sobre conectar pontos, amor e perda, e a morte como ferramenta (Stanford, 2005)
 
 ### Notas
 *(vazio)*

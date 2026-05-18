@@ -124,6 +124,27 @@ Conexões registradas:
 
 ---
 
+## [2026-05-17] ingest | Discurso de formatura em Stanford — Steve Jobs (2005)
+
+Fonte: `raw/pessoal/2005-06-12-the-pain-of-becoming-yourself-steve-jobs.md`
+YouTube: https://www.youtube.com/watch?v=QYAnJ_QyCQg (canal "whoisalastair")
+
+Páginas criadas:
+- `pessoal/sources/2005-06-12-discurso-stanford-steve-jobs.md`
+- `pessoal/concepts/conectar-os-pontos.md`
+- `pessoal/concepts/memento-mori.md`
+- `pessoal/concepts/vocacao.md`
+- `pessoal/entities/autores/steve-jobs.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/connections.md`
+- `_meta/log.md`
+
+Conexões registradas em `_meta/connections.md`:
+- vocação ↔ trabalho-alavancado (pessoal ↔ tecnico): amor genuíno pelo trabalho como condição para multiplicar impacto
+- memento-mori ↔ discernimento espiritual (pessoal ↔ espiritual): paralelo entre clareza estóica da morte e perspectiva cristã da eternidade
+
 ## [2026-05-14 20:06] schema-update | Convenção de autores como entidade
 
 - Subpasta `entities/autores/` adicionada em todos os domínios (tecnico, pessoal, espiritual, estudos, empresarial, rafacho.dev)

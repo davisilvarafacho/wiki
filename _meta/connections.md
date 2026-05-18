@@ -46,6 +46,20 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** O conceito de "leveraged work" do tech lead — esforços cujo impacto persiste e se multiplica depois que você saiu — ressoa com a ideia de desenvolvimento de hábitos e sistemas pessoais. Criar um sistema que funciona sem você presente é a mesma lógica, aplicada ao indivíduo.
 - **Detectada em:** 2026-05-14
 
+### Vocação e trabalho alavancado: amor pelo trabalho como multiplicador
+
+- **Domínios:** pessoal ↔ tecnico
+- **Páginas:** [[pessoal/concepts/vocacao]] ↔ [[tecnico/concepts/trabalho-alavancado]]
+- **Descrição:** Jobs argumenta que só quem ama o que faz consegue produzir trabalho excelente e persistir nos momentos de colapso. Hornby diz que o tech lead de alto impacto é aquele cujo trabalho multiplica a capacidade do time muito depois de ele ter saído. Os dois convergem: amor genuíno pelo trabalho é o que gera o tipo de esforço que se multiplica — não pode ser fabricado por obrigação.
+- **Detectada em:** 2026-05-17
+
+### Memento mori e discernimento espiritual
+
+- **Domínios:** pessoal ↔ espiritual
+- **Páginas:** [[pessoal/concepts/memento-mori]] ↔ `espiritual/concepts/` (a preencher)
+- **Descrição:** A prática estóica de lembrar da morte como ferramenta de clareza tem paralelo na teologia reformada — a consciência da finitude e da eternidade como critério para avaliar o que tem peso real. A diferença central: para Jobs, a morte revela o que importa *para você*; para a fé cristã, a morte revela o que importa *à luz de Deus*.
+- **Detectada em:** 2026-05-17
+
 ### Memex → LLM Wiki: problema antigo, solução nova
 
 - **Domínios:** tecnico ↔ estudos
