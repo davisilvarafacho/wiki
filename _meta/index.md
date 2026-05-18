@@ -75,18 +75,20 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Pessoal
 
 ### Conceitos
-*(vazio)*
+- [[pessoal/concepts/dedicacao-vs-talento]] — dificuldade diminui na proporção exata da dedicação; talento é interesse aplicado por tempo suficiente
+- [[pessoal/concepts/mecanismo-de-protecao-cerebral]] — o cérebro trata o novo como perigo evolutivo; a "voz que manda desistir" é defesa primitiva, não intuição
+- [[pessoal/concepts/novidade-vs-dificuldade]] — distinção entre dificuldade percebida (novidade + defesa cerebral) e dificuldade real; base do mindset de aprendizado
 
 ### Entidades
 
 #### Autores
-*(vazio)*
+- [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, organização de vida
 
 #### Outras
 *(vazio)*
 
 ### Sumários de fontes
-*(vazio)*
+- [[pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo]] — Pinho: "Nada é difícil, só é novo pra você"; mecanismo cerebral de defesa, hábito de reclamação e dedicação como transformadora
 
 ### Notas
 *(vazio)*
