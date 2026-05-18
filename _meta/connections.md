@@ -46,6 +46,20 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** O conceito de "leveraged work" do tech lead — esforços cujo impacto persiste e se multiplica depois que você saiu — ressoa com a ideia de desenvolvimento de hábitos e sistemas pessoais. Criar um sistema que funciona sem você presente é a mesma lógica, aplicada ao indivíduo.
 - **Detectada em:** 2026-05-14
 
+### Manutenção da vida pessoal ↔ manutenção de banco de dados
+
+- **Domínios:** pessoal ↔ tecnico
+- **Páginas:** [[pessoal/concepts/manutencao-da-vida]] ↔ [[tecnico/concepts/autovacuum]]
+- **Descrição:** O PostgreSQL implementa autovacuum porque sem manutenção automática os dead tuples acumulam e degradam silenciosamente a performance — exatamente a dinâmica da negligência na vida pessoal (Pinho): a negligência nunca cobra no mesmo dia, mas quando cobra, cobra com juros. Autovacuum é a resposta técnica para o mesmo problema.
+- **Detectada em:** 2026-05-17
+
+### Conquista vs. manutenção ↔ trabalho alavancado
+
+- **Domínios:** pessoal ↔ tecnico
+- **Páginas:** [[pessoal/concepts/conquista-vs-manutencao]] ↔ [[tecnico/concepts/trabalho-alavancado]]
+- **Descrição:** O tech lead investe em trabalho que multiplica capacidade do time — não apenas em entregas pontuais. O mesmo princípio se aplica à vida pessoal: investir em manutenção de hábitos, relacionamentos e saúde é trabalho alavancado pessoal — com retorno distribuído no tempo, não imediato.
+- **Detectada em:** 2026-05-17
+
 ### Memex → LLM Wiki: problema antigo, solução nova
 
 - **Domínios:** tecnico ↔ estudos

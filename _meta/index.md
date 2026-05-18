@@ -75,18 +75,19 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Pessoal
 
 ### Conceitos
-*(vazio)*
+- [[pessoal/concepts/conquista-vs-manutencao]] — distinção entre conquistar (ponto de partida) e manter (trabalho permanente que sustenta o que foi construído)
+- [[pessoal/concepts/manutencao-da-vida]] — princípio central: tudo que é valioso exige cuidado contínuo; negligência tem juros compostos
 
 ### Entidades
 
 #### Autores
-*(vazio)*
+- [[pessoal/entities/autores/pinho]] — youtuber brasileiro; desenvolvimento pessoal, hábitos e finanças pessoais
 
 #### Outras
 *(vazio)*
 
 ### Sumários de fontes
-*(vazio)*
+- [[pessoal/sources/2026-05-17-nao-ignore-a-manutencao-da-sua-vida]] — Pinho: manutenção como princípio de vida; conquista é só o começo; negligência tem juros
 
 ### Notas
 *(vazio)*
