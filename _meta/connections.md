@@ -67,6 +67,20 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** Harness Engineering e spec driven são temas diretamente relevantes para o canal rafacho.dev — tanto como conteúdo a produzir (o assunto está em alta, fevereiro-maio 2026) quanto como método de trabalho para desenvolver projetos demonstrados no canal. O framework PBQ do Waldemar Neto pode ser ponto de comparação ou ponto de partida para um vídeo próprio.
 - **Detectada em:** 2026-05-17
 
+### Fingir até se tornar ↔ rafacho.dev: processo de construção de canal
+
+- **Domínios:** pessoal ↔ rafacho.dev
+- **Páginas:** [[pessoal/concepts/fingir-ate-se-tornar]] ↔ `rafacho.dev/concepts/` (a preencher)
+- **Descrição:** O vídeo de Luana Carolina fala diretamente da experiência de criar conteúdo: live com 5 pessoas, post sem comentário, story sem resposta. O conceito de "fingir até se tornar" é a fundação psicológica de quem está começando um canal. O mesmo mecanismo de desenvolvimento se aplica ao rafacho.dev em suas fases iniciais.
+- **Detectada em:** 2026-05-17
+
+### Fingir até se tornar ↔ trabalho alavancado: o ponto de naturalidade
+
+- **Domínios:** pessoal ↔ tecnico
+- **Páginas:** [[pessoal/concepts/fingir-ate-se-tornar]] ↔ [[tecnico/concepts/trabalho-alavancado]]
+- **Descrição:** O trabalho alavancado técnico visa criar esforços que multiplicam retorno depois que você já passou por eles. "Fingir até se tornar" tem estrutura análoga: o esforço inicial de atrito cria uma naturalidade que depois não precisa mais de esforço consciente — o comportamento passou a se sustentar sozinho.
+- **Detectada em:** 2026-05-17
+
 ### Memex → LLM Wiki: problema antigo, solução nova
 
 - **Domínios:** tecnico ↔ estudos
