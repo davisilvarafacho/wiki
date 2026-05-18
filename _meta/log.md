@@ -17,6 +17,74 @@ grep "^## \[" log.md | tail -10
 
 ---
 
+## [2026-05-18] ingest | This video will find you before your next chapter (emmy, YouTube)
+
+Fonte: `raw/pessoal/2026-05-17-este-video-vai-te-encontrar.md`
+URL: https://www.youtube.com/watch?v=pfY6b87BDbY
+
+Páginas criadas:
+- `raw/pessoal/2026-05-17-este-video-vai-te-encontrar.md`
+- `pessoal/sources/2026-05-17-este-video-vai-te-encontrar.md`
+- `pessoal/concepts/paciencia-ativa.md`
+- `pessoal/concepts/gratidao.md`
+
+Páginas atualizadas:
+- `pessoal/concepts/memento-mori.md` — adicionados links para paciencia-ativa e gratidao
+- `pessoal/concepts/dedicacao-vs-talento.md` — adicionado link para paciencia-ativa
+- `_meta/index.md`
+- `_meta/connections.md`
+
+Conexões cross-domain registradas:
+- `pessoal/paciencia-ativa` ↔ `espiritual/` (a preencher): espera ativa como eco da espera esperançosa bíblica (Romanos 8:25, Salmo 27:14)
+- `pessoal/gratidao` ↔ `espiritual/` (a preencher): gratidão com fundamento na doutrina da providência (Filipenses 4:6)
+
+---
+
+## [2026-05-17] ingest | Me dê 72 segundos e vou te fazer ESTUDAR 10x MELHOR (Emmanuel Nominato)
+
+Fonte: YouTube — https://www.youtube.com/watch?v=NFWTzRiHmo0
+
+Páginas criadas:
+- `raw/estudos/2026-05-17-estudar-10x-melhor-emmanuel-nominato.md`
+- `estudos/sources/2026-05-17-estudar-10x-melhor-emmanuel-nominato.md`
+- `estudos/concepts/pratica-com-recuperacao.md`
+- `estudos/concepts/pratica-espacada.md`
+- `estudos/concepts/dificuldades-desejadas.md`
+- `estudos/concepts/ilusao-do-aprendizado.md`
+- `estudos/concepts/carga-cognitiva.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/connections.md`
+- `estudos/_index.md`
+
+Primeiro ingest do domínio `estudos/`. Tese central: aprendizado começa por atenção (sono + ausência de distrações) antes de qualquer técnica. A técnica mais eficaz e contraintuitiva é a prática com recuperação — fechar o material e tentar lembrar gera o atrito que consolida. Dificuldades desejadas nomeiam o paradoxo: facilitar demais impede a consolidação.
+
+Conexões cross-domain registradas em `_meta/connections.md`:
+- `dificuldades-desejadas` ↔ `pessoal/dedicacao-vs-talento`: atrito como mecanismo, não obstáculo
+- `ilusao-do-aprendizado` ↔ `pessoal/novidade-vs-dificuldade`: percepções que enganam sobre o estado real
+- `pratica-com-recuperacao` ↔ `pessoal/fingir-ate-se-tornar`: esforço ativo sem rede como mecanismo de crescimento
+- `carga-cognitiva` ↔ `tecnico/`: context switching em desenvolvimento como o mesmo problema
+
+---
+
+## [2026-05-17] ingest | Nesses 51 Segundos... eu vou APAGAR seu Medo de Errar (Cultura Renegada, YouTube Short)
+
+Fonte: `raw/pessoal/2026-05-17-apagar-medo-de-errar.md`
+
+Páginas criadas:
+- `pessoal/sources/2026-05-17-apagar-medo-de-errar.md`
+- `pessoal/concepts/medo-de-errar.md`
+- `pessoal/concepts/zona-de-conforto.md`
+- `pessoal/entities/autores/cultura-renegada.md`
+
+Páginas atualizadas:
+- `pessoal/concepts/mecanismo-de-protecao-cerebral.md` — adicionada conexão com medo-de-errar
+- `pessoal/concepts/dedicacao-vs-talento.md` — adicionada citação sobre perfeição vs. empenho
+- `_meta/index.md`
+
+---
+
 ## [2026-05-17] ingest | Não ignore a manutenção da sua vida (Pinho, YouTube)
 
 Fonte: `raw/pessoal/2026-05-17-nao-ignore-a-manutencao-da-sua-vida.md`

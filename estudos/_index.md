@@ -20,4 +20,13 @@ Aprendizado formal: livros, cursos, artigos, palestras. Tudo que é estudo delib
 - [[synthesis/]] — minha síntese consolidada de áreas de estudo
 
 ## Páginas
-*(vazio — será populado conforme ingest)*
+
+### Conceitos
+- [[concepts/carga-cognitiva]] — recurso mental limitado; ladrões silenciosos: música com letra, celular visível, sono ruim
+- [[concepts/dificuldades-desejadas]] — paradoxo central do aprendizado: o esforço que parece atrapalhar é o que consolida
+- [[concepts/ilusao-do-aprendizado]] — releitura gera familiaridade, não retenção; reconhecimento não é recuperação
+- [[concepts/pratica-com-recuperacao]] — feche o material e tente lembrar; flashcards, questões, ensinar alguém
+- [[concepts/pratica-espacada]] — revisitar de tempos em tempos; intervalos crescentes fortalecem retenção
+
+### Fontes
+- [[sources/2026-05-17-estudar-10x-melhor-emmanuel-nominato]] — Emmanuel Nominato: base do aprendizado + técnicas com base científica

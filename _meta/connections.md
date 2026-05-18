@@ -81,6 +81,20 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** O trabalho alavancado técnico visa criar esforços que multiplicam retorno depois que você já passou por eles. "Fingir até se tornar" tem estrutura análoga: o esforço inicial de atrito cria uma naturalidade que depois não precisa mais de esforço consciente — o comportamento passou a se sustentar sozinho.
 - **Detectada em:** 2026-05-17
 
+### Paciência ativa ↔ espera esperançosa (espiritual)
+
+- **Domínios:** pessoal ↔ espiritual
+- **Páginas:** [[pessoal/concepts/paciencia-ativa]] ↔ `espiritual/concepts/` (a preencher)
+- **Descrição:** A paciência ativa — reconhecer restrições legítimas e fazer o máximo do presente enquanto espera o próximo capítulo — ecoa a noção bíblica de espera esperançosa (Romanos 8:25, Salmo 27:14). Na fé cristã, a espera não é passividade: é confiança ativa em quem controla o tempo.
+- **Detectada em:** 2026-05-17
+
+### Gratidão ↔ providência e oração (espiritual)
+
+- **Domínios:** pessoal ↔ espiritual
+- **Páginas:** [[pessoal/concepts/gratidao]] ↔ `espiritual/concepts/` (a preencher)
+- **Descrição:** A gratidão como reconhecimento ativo do presente tem fundamento teológico na doutrina da providência — Deus sustenta o presente, e reconhecer isso é resposta adequada à realidade, não apenas técnica de bem-estar (cf. Filipenses 4:6).
+- **Detectada em:** 2026-05-17
+
 ### Manutenção da vida pessoal ↔ manutenção de banco de dados
 
 - **Domínios:** pessoal ↔ tecnico
@@ -93,6 +107,34 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Domínios:** pessoal ↔ tecnico
 - **Páginas:** [[pessoal/concepts/conquista-vs-manutencao]] ↔ [[tecnico/concepts/trabalho-alavancado]]
 - **Descrição:** O tech lead investe em trabalho que multiplica capacidade do time — não apenas em entregas pontuais. O mesmo princípio se aplica à vida pessoal: investir em manutenção de hábitos, relacionamentos e saúde é trabalho alavancado pessoal — com retorno distribuído no tempo, não imediato.
+- **Detectada em:** 2026-05-17
+
+### Dificuldades desejadas ↔ dedicação vs. talento
+
+- **Domínios:** estudos ↔ pessoal
+- **Páginas:** [[estudos/concepts/dificuldades-desejadas]] ↔ [[pessoal/concepts/dedicacao-vs-talento]]
+- **Descrição:** O paradoxo das dificuldades desejadas — o esforço que parece atrapalhar é o que consolida — ressoa com a tese de Pinho de que dificuldade diminui na proporção da dedicação. Nos dois casos, o atrito não é obstáculo a ser evitado: é o mecanismo de crescimento.
+- **Detectada em:** 2026-05-17
+
+### Ilusão do aprendizado ↔ novidade vs. dificuldade
+
+- **Domínios:** estudos ↔ pessoal
+- **Páginas:** [[estudos/concepts/ilusao-do-aprendizado]] ↔ [[pessoal/concepts/novidade-vs-dificuldade]]
+- **Descrição:** A ilusão do aprendizado engana por dentro (familiaridade parece compreensão); o mecanismo de proteção cerebral engana por fora (novidade parece dificuldade real). Em ambos, a percepção imediata distorce o estado real de aprendizado — e o antídoto é o mesmo: testar com esforço real, não avaliar pela sensação.
+- **Detectada em:** 2026-05-17
+
+### Prática com recuperação ↔ fingir até se tornar
+
+- **Domínios:** estudos ↔ pessoal
+- **Páginas:** [[estudos/concepts/pratica-com-recuperacao]] ↔ [[pessoal/concepts/fingir-ate-se-tornar]]
+- **Descrição:** Em ambos, o esforço ativo sem rede de segurança é o mecanismo de crescimento — não a observação passiva. Tentar lembrar sem consultar (retrieval practice) e agir antes de estar "pronto" (fingir até se tornar) são estruturalmente a mesma coisa: você se expõe ao esforço de recuperação, e é esse atrito que consolida o aprendizado ou a habilidade.
+- **Detectada em:** 2026-05-17
+
+### Carga cognitiva ↔ tecnico: context switching em desenvolvimento
+
+- **Domínios:** estudos ↔ tecnico
+- **Páginas:** [[estudos/concepts/carga-cognitiva]] ↔ `tecnico/concepts/` (a preencher)
+- **Descrição:** A carga cognitiva limitada que prejudica o estudo é o mesmo fenômeno que fragmenta o trabalho de desenvolvimento: cada troca de contexto (PR aberto, Slack, bug em produção) tem custo cognitivo que se acumula. Ambientes de desenvolvimento que minimizam interrupções resolvem o mesmo problema que o ambiente de estudo sem celular.
 - **Detectada em:** 2026-05-17
 
 ### Memex → LLM Wiki: problema antigo, solução nova

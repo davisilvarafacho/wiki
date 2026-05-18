@@ -5,7 +5,7 @@ dominio: pessoal
 tags: [mindset, aprendizado, habitos, desempenho]
 criado: 2026-05-17
 atualizado: 2026-05-17
-fontes: [pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo]
+fontes: [pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo, pessoal/sources/2026-05-17-apagar-medo-de-errar]
 ---
 
 # Dedicação vs. Talento
@@ -46,4 +46,6 @@ A narrativa do talento é perigosa porque cria duas categorias fixas: "os que t�
 
 Substituir "talento" por "dedicação acumulada" transforma o problema de identidade em problema de investimento de tempo — que tem solução.
 
-Ver também: [[novidade-vs-dificuldade]], [[mecanismo-de-protecao-cerebral]]
+Outro ângulo convergente: "a perfeição não te molda, o empenho e a persistência, sim" ([[pessoal/sources/2026-05-17-apagar-medo-de-errar]]). A dedicação que molda não é a que busca o resultado perfeito antes de agir — é a que persiste no processo imperfeito.
+
+Ver também: [[novidade-vs-dificuldade]], [[mecanismo-de-protecao-cerebral]], [[medo-de-errar]], [[pessoal/concepts/paciencia-ativa]]

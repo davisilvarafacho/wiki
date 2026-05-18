@@ -49,4 +49,7 @@ Dentro de uma visão cristã, a morte não é apenas o fim — é uma transiçã
 ## Ver também
 
 - [[pessoal/concepts/vocacao]] — o que sobra depois de remover o ruído é o chamado
+- [[pessoal/concepts/paciencia-ativa]] — a consciência da finitude é antídoto à espera passiva
+- [[pessoal/concepts/gratidao]] — finitude torna o presente mais visível; gratidão torna a finitude menos aterrorizante
 - [[pessoal/sources/2005-06-12-discurso-stanford-steve-jobs]]
+- [[pessoal/sources/2026-05-17-este-video-vai-te-encontrar]]

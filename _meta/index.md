@@ -83,18 +83,23 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ### Conceitos
 - [[pessoal/concepts/auto-sabotagem]] — tendência de se tornar o próprio obstáculo antes de qualquer crítica externa; o cancelamento começa por dentro
 - [[pessoal/concepts/conectar-os-pontos]] — só é possível ligar experiências passadas em retrospecto; confiança no processo como condição para seguir o coração
+- [[pessoal/concepts/medo-de-errar]] — errar como custo de transformação, não oposto de vencer; o verdadeiro fracasso é nunca se arriscar
 - [[pessoal/concepts/conquista-vs-manutencao]] — distinção entre conquistar (ponto de partida) e manter (trabalho permanente que sustenta o que foi construído)
 - [[pessoal/concepts/dedicacao-vs-talento]] — dificuldade diminui na proporção exata da dedicação; talento é interesse aplicado por tempo suficiente
 - [[pessoal/concepts/fingir-ate-se-tornar]] — performar antes de ser natural como mecanismo real de desenvolvimento; o atrito e a sensação de impostor são constitutivos do processo
+- [[pessoal/concepts/gratidao]] — reconhecimento ativo do que existe agora, antes do próximo capítulo chegar; postura de percepção, não contentamento ingênuo
 - [[pessoal/concepts/manutencao-da-vida]] — princípio central: tudo que é valioso exige cuidado contínuo; negligência tem juros compostos
 - [[pessoal/concepts/mecanismo-de-protecao-cerebral]] — o cérebro trata o novo como perigo evolutivo; a "voz que manda desistir" é defesa primitiva, não intuição
 - [[pessoal/concepts/memento-mori]] — consciência da mortalidade como filtro do essencial; dissolve o ruído de expectativas externas e medo de perda
 - [[pessoal/concepts/novidade-vs-dificuldade]] — distinção entre dificuldade percebida (novidade + defesa cerebral) e dificuldade real; base do mindset de aprendizado
+- [[pessoal/concepts/paciencia-ativa]] — paciência que não é espera passiva, mas preparação consciente e aproveitamento máximo do presente enquanto o próximo capítulo não chega
 - [[pessoal/concepts/vocacao]] — encontro entre o que se faz e o que se ama; o que sustenta nos momentos de colapso externo
+- [[pessoal/concepts/zona-de-conforto]] — mantém preso em versão menor de si mesmo; nunca transformou ninguém; sair exige agir antes de estar pronto
 
 ### Entidades
 
 #### Autores
+- [[pessoal/entities/autores/cultura-renegada]] — canal brasileiro de YouTube Shorts; conteúdo motivacional sobre mindset, medo de errar e zona de conforto
 - [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 - [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, hábitos e finanças pessoais
 - [[pessoal/entities/autores/steve-jobs]] — cofundador Apple, NeXT e Pixar; referência em vocação, design e visão de vida
@@ -104,7 +109,9 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 
 ### Sumários de fontes
 - [[pessoal/sources/2005-06-12-discurso-stanford-steve-jobs]] — Steve Jobs: três histórias sobre conectar pontos, amor e perda, e a morte como ferramenta (Stanford, 2005)
+- [[pessoal/sources/2026-05-17-apagar-medo-de-errar]] — Cultura Renegada: errar como custo de transformação; zona de conforto como prisão; coragem do primeiro passo
 - [[pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo]] — Pinho: "Nada é difícil, só é novo pra você"; mecanismo cerebral de defesa, hábito de reclamação e dedicação como transformadora
+- [[pessoal/sources/2026-05-17-este-video-vai-te-encontrar]] — emmy: paciência ativa; fazer o máximo do presente enquanto aguarda o próximo capítulo; gratidão e sonho com intenção
 - [[pessoal/sources/2026-05-17-nao-ignore-a-manutencao-da-sua-vida]] — Pinho: manutenção como princípio de vida; conquista é só o começo; negligência tem juros
 - [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
 
@@ -143,7 +150,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Estudos
 
 ### Conceitos
-*(vazio)*
+- [[estudos/concepts/carga-cognitiva]] — recurso mental limitado; ladrões silenciosos: música com letra, celular visível, sono ruim
+- [[estudos/concepts/dificuldades-desejadas]] — paradoxo central do aprendizado: o esforço que parece atrapalhar é o que consolida
+- [[estudos/concepts/ilusao-do-aprendizado]] — releitura gera familiaridade, não retenção; reconhecimento não é recuperação
+- [[estudos/concepts/pratica-com-recuperacao]] — feche o material e tente lembrar; flashcards, questões, ensinar alguém; técnica mais eficaz
+- [[estudos/concepts/pratica-espacada]] — revisitar de tempos em tempos; esquecimento é fisiológico; intervalos crescentes fortalecem retenção
 
 ### Entidades
 
@@ -154,7 +165,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 *(vazio)*
 
 ### Sumários de fontes
-*(vazio)*
+- [[estudos/sources/2026-05-17-estudar-10x-melhor-emmanuel-nominato]] — Emmanuel Nominato: base do aprendizado (atenção, sono, distrações) + técnicas com base científica
 
 ### Notas
 *(vazio)*
