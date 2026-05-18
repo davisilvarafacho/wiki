@@ -75,18 +75,19 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Pessoal
 
 ### Conceitos
-*(vazio)*
+- [[pessoal/concepts/auto-sabotagem]] — tendência de se tornar o próprio obstáculo antes de qualquer crítica externa; o cancelamento começa por dentro
+- [[pessoal/concepts/fingir-ate-se-tornar]] — performar antes de ser natural como mecanismo real de desenvolvimento; o atrito e a sensação de impostor são constitutivos do processo
 
 ### Entidades
 
 #### Autores
-*(vazio)*
+- [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 
 #### Outras
 *(vazio)*
 
 ### Sumários de fontes
-*(vazio)*
+- [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
 
 ### Notas
 *(vazio)*

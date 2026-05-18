@@ -124,6 +124,27 @@ Conexões registradas:
 
 ---
 
+## [2026-05-17] ingest | O segredo das pessoas confiantes (Luana Carolina)
+
+Fonte: `raw/pessoal/2026-05-17-o-segredo-das-pessoas-confiantes.md`
+URL: https://www.youtube.com/watch?v=0CpNy1Ph7e8
+
+Páginas criadas:
+- `pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes.md`
+- `pessoal/concepts/fingir-ate-se-tornar.md`
+- `pessoal/concepts/auto-sabotagem.md`
+- `pessoal/entities/autores/luana-carolina.md`
+
+Páginas atualizadas:
+- `_meta/index.md`
+- `_meta/connections.md`
+
+Conexões cross-domain registradas:
+- `fingir-ate-se-tornar` ↔ `rafacho.dev`: processo de desenvolvimento de canal YouTube; stories como campo de treino
+- `fingir-ate-se-tornar` ↔ `tecnico/concepts/trabalho-alavancado`: lógica de criar algo que gera retorno após o esforço inicial; o ponto de "naturalidade" como análogo ao leverage
+
+---
+
 ## [2026-05-14 20:06] schema-update | Convenção de autores como entidade
 
 - Subpasta `entities/autores/` adicionada em todos os domínios (tecnico, pessoal, espiritual, estudos, empresarial, rafacho.dev)
