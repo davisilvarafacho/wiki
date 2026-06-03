@@ -124,6 +124,9 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/reforco-por-razao-variavel]] — padrão de recompensa imprevisível é o mais viciante; base do design de cassinos e feeds; o cérebro não para porque não consegue prever a próxima recompensa
 - [[pessoal/concepts/scroll-infinito]] — mecanismo de interface que elimina sinal de fim; combina tigela sem fundo com reforço variável; desperdiça 1 milhão de vidas/dia segundo seu criador
 - [[pessoal/concepts/vocacao]] — encontro entre o que se faz e o que se ama; o que sustenta nos momentos de colapso externo
+- [[pessoal/concepts/autodisciplina]] — libertação, não privação; autocomando independente de motivação; a vida sem disciplina é servidão às próprias compulsões
+- [[pessoal/concepts/pensamento-retrospectivo]] — planejar de trás para frente a partir do objetivo; baseado em evidência própria, não em intenção
+- [[pessoal/concepts/rituais-de-iniciacao]] — sequência pré-definida que leva até o ponto de partida da tarefa; planejar como começar, não como fazer tudo
 - [[pessoal/concepts/zona-de-conforto]] — mantém preso em versão menor de si mesmo; nunca transformou ninguém; sair exige agir antes de estar pronto
 
 ### Entidades
@@ -134,6 +137,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/entities/autores/jose-ricardo-gois]] — Dr. José Ricardo Gois; psicologia e filosofia aplicada; autoconhecimento, ócio, alexitimia e economia da atenção
 - [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 - [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, hábitos e finanças pessoais
+- [[pessoal/entities/autores/natalia-persico]] — criadora de conteúdo; foco em autodisciplina, hábitos e desenvolvimento pessoal
 - [[pessoal/entities/autores/steve-jobs]] — cofundador Apple, NeXT e Pixar; referência em vocação, design e visão de vida
 
 #### Outras
@@ -149,6 +153,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/sources/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas]] — Dr. José Ricardo Gois: ócio deliberado como porta do autoconhecimento; alexitimia, economia da atenção e modo do todo mundo
 - [[pessoal/sources/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro]] — Dr. José Ricardo Gois: scroll infinito, dopamina de antecipação, reforço variável e dessensibilização dopaminérgica
 - [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
+- [[pessoal/sources/2026-05-26-domine-a-autodisciplina-7-habitos]] — Natalia Persico: autodisciplina como autocomando; 7 hábitos práticos incluindo rituais de iniciação e pensamento retrospectivo
 
 ### Notas
 *(vazio)*
@@ -194,7 +199,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ### Entidades
 
 #### Autores
-*(vazio)*
+- [[estudos/entities/autores/emmanuel-nominato]] — criador de conteúdo; foco em técnicas de estudo com base científica
 
 #### Outras
 *(vazio)*
