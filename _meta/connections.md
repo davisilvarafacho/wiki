@@ -151,6 +151,34 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** Vasilios Syrakis (Atlassian) e Pinho descrevem o mesmo fenômeno em domínios opostos: o que não é cuidado deteriora progressivamente, e a deterioração tem juros compostos. No código, churn acumulado sem atenção arquitetural gera acoplamento crescente e custo exponencial de mudança. Na vida, negligência de hábitos, saúde e relacionamentos cobra o mesmo preço — só muda o tempo de latência. O cuidado contínuo não é opcional para quem quer manter a capacidade de mudar.
 - **Detectada em:** 2026-06-03
 
+### Ócio ↔ carga cognitiva: silêncio como condição para processar
+
+- **Domínios:** pessoal ↔ estudos
+- **Páginas:** [[pessoal/concepts/ocio]] ↔ [[estudos/concepts/carga-cognitiva]]
+- **Descrição:** A carga cognitiva precisa de espaço vazio para processar o que foi aprendido — o sono e as pausas são parte do aprendizado, não interrupção dele. O ócio deliberado é a versão mais radical desse princípio: sem silêncio, sem processamento emocional. Os dois conceitos convergem: o cérebro precisa de tempo sem entrada para consolidar, seja aprendizado técnico ou experiências emocionais.
+- **Detectada em:** 2026-06-03
+
+### Economia da atenção ↔ carga cognitiva: o mesmo inimigo
+
+- **Domínios:** pessoal ↔ estudos
+- **Páginas:** [[pessoal/concepts/economia-da-atencao]] ↔ [[estudos/concepts/carga-cognitiva]]
+- **Descrição:** A economia da atenção elimina o ócio e fragmenta a atenção — os dois mecanismos que prejudicam tanto o aprendizado (carga cognitiva) quanto o autoconhecimento (alexitimia). Celular visível na mesa é ladrão silencioso de atenção para o estudo e impede o processamento emocional ao mesmo tempo.
+- **Detectada em:** 2026-06-03
+
+### Modo do todo mundo ↔ zona de conforto: a prisão identitária
+
+- **Domínios:** pessoal ↔ pessoal (reforço interno)
+- **Páginas:** [[pessoal/concepts/modo-do-todo-mundo]] ↔ [[pessoal/concepts/zona-de-conforto]]
+- **Descrição:** A zona de conforto prende em uma versão menor de si mesmo por medo de arriscar; o modo do todo mundo prende em uma identidade que talvez nunca tenha sido sua — por nunca ter parado para questionar. A zona de conforto é percebida como escolha; o modo do todo mundo geralmente não é percebido como escolha — é o nível mais profundo da mesma prisão.
+- **Detectada em:** 2026-06-03
+
+### Ócio ↔ devocional cristão: silêncio como escuta de Deus
+
+- **Domínios:** pessoal ↔ espiritual
+- **Páginas:** [[pessoal/concepts/ocio]] ↔ `espiritual/concepts/` (a preencher)
+- **Descrição:** O ócio deliberado como espaço de autoconhecimento tem paralelo direto na tradição devocional cristã — o silêncio e a meditação nas Escrituras como condição para ouvir a voz de Deus (Salmo 46:10: "Aquietai-vos e sabei que eu sou Deus"). A diferença: o ócio secular revela o eu; o devocional cristão revela o eu à luz de Deus. Mas ambos exigem o mesmo gesto: parar, calar, esperar.
+- **Detectada em:** 2026-06-03
+
 ### Platform engineering ↔ trabalho alavancado: centralizar uma vez, beneficiar todos
 
 - **Domínios:** tecnico ↔ tecnico (reforço interno)

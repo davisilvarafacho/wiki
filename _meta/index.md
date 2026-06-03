@@ -88,18 +88,22 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ## Pessoal
 
 ### Conceitos
+- [[pessoal/concepts/alexitimia]] — dificuldade de identificar e nomear as próprias emoções; tornando-se condição quase geracional pela privação de silêncio
 - [[pessoal/concepts/auto-sabotagem]] — tendência de se tornar o próprio obstáculo antes de qualquer crítica externa; o cancelamento começa por dentro
 - [[pessoal/concepts/conectar-os-pontos]] — só é possível ligar experiências passadas em retrospecto; confiança no processo como condição para seguir o coração
 - [[pessoal/concepts/medo-de-errar]] — errar como custo de transformação, não oposto de vencer; o verdadeiro fracasso é nunca se arriscar
 - [[pessoal/concepts/conquista-vs-manutencao]] — distinção entre conquistar (ponto de partida) e manter (trabalho permanente que sustenta o que foi construído)
 - [[pessoal/concepts/dedicacao-vs-talento]] — dificuldade diminui na proporção exata da dedicação; talento é interesse aplicado por tempo suficiente
+- [[pessoal/concepts/economia-da-atencao]] — modelo econômico em que atenção é produto; tédio transformado em problema de engajamento; projetado para eliminar o silêncio
 - [[pessoal/concepts/fingir-ate-se-tornar]] — performar antes de ser natural como mecanismo real de desenvolvimento; o atrito e a sensação de impostor são constitutivos do processo
 - [[pessoal/concepts/gratidao]] — reconhecimento ativo do que existe agora, antes do próximo capítulo chegar; postura de percepção, não contentamento ingênuo
 - [[pessoal/concepts/manutencao-da-vida]] — princípio central: tudo que é valioso exige cuidado contínuo; negligência tem juros compostos
 - [[pessoal/concepts/mentalidade-de-temporada]] — temporada atual é teste, não destino; dificuldade forma para sustentar o que vem depois
 - [[pessoal/concepts/mecanismo-de-protecao-cerebral]] — o cérebro trata o novo como perigo evolutivo; a "voz que manda desistir" é defesa primitiva, não intuição
 - [[pessoal/concepts/memento-mori]] — consciência da mortalidade como filtro do essencial; dissolve o ruído de expectativas externas e medo de perda
+- [[pessoal/concepts/modo-do-todo-mundo]] — Heidegger: viver no automático do que "todo mundo" faz, sem nunca ter escolhido; tédio profundo é quando essa casca racha
 - [[pessoal/concepts/novidade-vs-dificuldade]] — distinção entre dificuldade percebida (novidade + defesa cerebral) e dificuldade real; base do mindset de aprendizado
+- [[pessoal/concepts/ocio]] — pausa deliberada para pensar e se conhecer; na Grécia antiga (escolé) era o ponto alto da vida; hoje foi transformado em pecado
 - [[pessoal/concepts/paciencia-ativa]] — paciência que não é espera passiva, mas preparação consciente e aproveitamento máximo do presente enquanto o próximo capítulo não chega
 - [[pessoal/concepts/vocacao]] — encontro entre o que se faz e o que se ama; o que sustenta nos momentos de colapso externo
 - [[pessoal/concepts/zona-de-conforto]] — mantém preso em versão menor de si mesmo; nunca transformou ninguém; sair exige agir antes de estar pronto
@@ -109,6 +113,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 #### Autores
 - [[pessoal/entities/autores/cultura-renegada]] — canal brasileiro de YouTube Shorts; conteúdo motivacional sobre mindset, medo de errar e zona de conforto
 - [[pessoal/entities/autores/for-purpose-driven-men]] — canal YouTube; conteúdo motivacional cristão para homens; foco em propósito e perseverança
+- [[pessoal/entities/autores/jose-ricardo-gois]] — Dr. José Ricardo Gois; psicologia e filosofia aplicada; autoconhecimento, ócio, alexitimia e economia da atenção
 - [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 - [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, hábitos e finanças pessoais
 - [[pessoal/entities/autores/steve-jobs]] — cofundador Apple, NeXT e Pixar; referência em vocação, design e visão de vida
@@ -123,6 +128,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/sources/2026-05-17-este-video-vai-te-encontrar]] — emmy: paciência ativa; fazer o máximo do presente enquanto aguarda o próximo capítulo; gratidão e sonho com intenção
 - [[pessoal/sources/2026-05-17-nao-ignore-a-manutencao-da-sua-vida]] — Pinho: manutenção como princípio de vida; conquista é só o começo; negligência tem juros
 - [[pessoal/sources/2026-06-03-give-god-56-seconds]] — For Purpose Driven Men: temporada atual como teste formativo; grit e disciplina se constroem na adversidade
+- [[pessoal/sources/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas]] — Dr. José Ricardo Gois: ócio deliberado como porta do autoconhecimento; alexitimia, economia da atenção e modo do todo mundo
 - [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
 
 ### Notas

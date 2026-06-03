@@ -17,6 +17,28 @@ grep "^## \[" log.md | tail -10
 
 ---
 
+## [2026-06-03] ingest | O Tédio É a Saída dos Seus Problemas (Dr. José Ricardo Gois, YouTube)
+
+Fonte: vídeo YouTube — https://youtu.be/W5yUiVWluGk
+Autor: Dr. José Ricardo Gois — psicólogo e criador de conteúdo brasileiro
+
+Páginas criadas:
+- `raw/pessoal/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas.md`
+- `pessoal/sources/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas.md`
+- `pessoal/concepts/ocio.md`
+- `pessoal/concepts/alexitimia.md`
+- `pessoal/concepts/economia-da-atencao.md`
+- `pessoal/concepts/modo-do-todo-mundo.md`
+- `pessoal/entities/autores/jose-ricardo-gois.md`
+
+Conexões cross-domain adicionadas em `_meta/connections.md`:
+- ócio ↔ carga cognitiva (pessoal ↔ estudos)
+- economia da atenção ↔ carga cognitiva (pessoal ↔ estudos)
+- modo do todo mundo ↔ zona de conforto (pessoal interno)
+- ócio ↔ devocional cristão (pessoal ↔ espiritual)
+
+---
+
 ## [2026-06-03] ingest | I was laid off by Atlassian (Vasilios Syrakis, YouTube)
 
 Fonte: vídeo YouTube — https://www.youtube.com/watch?v=55pTFVoclvE
