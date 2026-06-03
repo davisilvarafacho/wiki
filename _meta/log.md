@@ -1,6 +1,8 @@
 ---
 title: "Log da Wiki"
 tipo: meta
+criado: 2026-05-14
+atualizado: 2026-05-18
 ---
 
 # Log
@@ -129,6 +131,37 @@ Páginas atualizadas:
 
 Conexões cross-domain registradas:
 - `pessoal/mentalidade-de-temporada` ↔ `espiritual/`: padrão prova → formação → benção é central em Tiago 1:2-4 e Romanos 5:3-4
+
+---
+
+## [2026-05-18 10:40] ingest | VRAG: Como funciona o Visual RAG do Alibaba (Qwen 3.6 Plus)
+
+Fonte: conversa com Qwen 3.6 Plus. Pergunta original: "Como funciona o VRAG proposto pelo Alibaba?"
+Referência externa: https://github.com/Alibaba-NLP/VRAG
+
+Páginas criadas:
+- `tecnico/notes/2026-05-18-vrag-alibaba.md` — nota principal com conteúdo da conversa
+- `tecnico/concepts/vrag.md` — VRAG (Visual RAG); arquitetura com VLMs, raciocínio iterativo e VRAG-RL
+- `tecnico/concepts/vlm.md` — Vision-Language Model; stub
+- `tecnico/concepts/vimrag.md` — VimRAG (Grafo de Memória Multimodal); stub
+- `tecnico/entities/alibaba-nlp.md` — grupo de pesquisa Alibaba; autores do VRAG e série Qwen
+
+Páginas atualizadas:
+- `tecnico/concepts/rag.md` — adicionada seção "Evolução: VRAG"
+- `_meta/index.md`
+- `_meta/connections.md`
+
+Conexão cross-domain registrada:
+- `tecnico/vrag` ↔ `rafacho.dev/`: tema com alto potencial de conteúdo para o canal
+
+---
+
+## [2026-05-18 10:38] lint | Auditoria geral da wiki
+
+- Lint executado. Wiki em estado excelente.
+- Correção: adicionado campo `criado: 2026-05-14` em todos os `_index.md` de domínio e arquivos `_meta/`.
+- Adicionado `atualizado: 2026-05-18` em `_meta/log.md` (estava faltando).
+- Arquivos tocados: 6 `_index.md`, 5 arquivos `_meta/`.
 
 ---
 

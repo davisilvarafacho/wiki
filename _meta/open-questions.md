@@ -1,6 +1,7 @@
 ---
 title: "Perguntas Abertas"
 tipo: meta
+criado: 2026-05-14
 atualizado: 2026-05-14
 ---
 
