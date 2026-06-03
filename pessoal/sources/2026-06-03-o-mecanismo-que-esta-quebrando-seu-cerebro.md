@@ -13,7 +13,7 @@ atualizado: 2026-06-03
 
 # O mecanismo que está quebrando seu cérebro (e você não percebeu)
 
-**Autor:** [[pessoal/entities/autores/dr-jose-ricardo-gois]]
+**Autor:** [[pessoal/entities/autores/jose-ricardo-gois]]
 **Canal:** Dr. José Ricardo Gois no YouTube
 **URL:** https://www.youtube.com/watch?v=mfEeuu4OBao
 

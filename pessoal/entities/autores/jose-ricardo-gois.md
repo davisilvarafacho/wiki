@@ -19,6 +19,7 @@ Criador de conteúdo brasileiro com canal no YouTube. Produz vídeos que integra
 ## Fontes na wiki
 
 - [[pessoal/sources/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas]] — sobre o valor do ócio, tédio como porta para o autoconhecimento, e a economia da atenção
+- [[pessoal/sources/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro]] — scroll infinito, dopamina de antecipação, reforço por razão variável e dessensibilização dopaminérgica
 
 ## Conceitos que influenciou
 
@@ -26,3 +27,7 @@ Criador de conteúdo brasileiro com canal no YouTube. Produz vídeos que integra
 - [[pessoal/concepts/alexitimia]]
 - [[pessoal/concepts/economia-da-atencao]]
 - [[pessoal/concepts/modo-do-todo-mundo]]
+- [[pessoal/concepts/scroll-infinito]]
+- [[pessoal/concepts/dopamina]]
+- [[pessoal/concepts/reforco-por-razao-variavel]]
+- [[pessoal/concepts/dessensibilizacao-dopaminergica]]

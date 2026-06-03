@@ -179,6 +179,20 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Descrição:** O ócio deliberado como espaço de autoconhecimento tem paralelo direto na tradição devocional cristã — o silêncio e a meditação nas Escrituras como condição para ouvir a voz de Deus (Salmo 46:10: "Aquietai-vos e sabei que eu sou Deus"). A diferença: o ócio secular revela o eu; o devocional cristão revela o eu à luz de Deus. Mas ambos exigem o mesmo gesto: parar, calar, esperar.
 - **Detectada em:** 2026-06-03
 
+### Event Sourcing ↔ MVCC: imutabilidade como princípio comum em banco de dados
+
+- **Domínios:** tecnico ↔ tecnico (reforço interno)
+- **Páginas:** [[tecnico/concepts/event-sourcing]] ↔ [[tecnico/concepts/mvcc]]
+- **Descrição:** O MVCC do PostgreSQL e o Event Sourcing compartilham a mesma intuição de base: nunca sobrescrever o que existe, criar versões novas em vez de mutar. No MVCC, múltiplas versões físicas de uma linha coexistem para permitir concorrência sem locks. No Event Sourcing, os estados anteriores coexistem como eventos para permitir auditoria e replay. A diferença: MVCC acumula versões como efeito colateral (e o autovacuum precisa limpá-las); Event Sourcing acumula eventos como feature deliberada.
+- **Detectada em:** 2026-06-03
+
+### Programação funcional ↔ churn-codebase: o paradigma que faz o código envelhecer como vinho
+
+- **Domínios:** tecnico ↔ tecnico (reforço interno)
+- **Páginas:** [[tecnico/concepts/programacao-funcional]] ↔ [[tecnico/concepts/churn-codebase]]
+- **Descrição:** Churn acumulado sem atenção arquitetural gera acoplamento crescente e custo exponencial de mudança. A metáfora do pasquadev é direta: código Java/Ruby "envelhece como leite" porque estado mutável e side effects ocultos acumulam dívida que torna cada mudança mais cara do que a anterior. Programação funcional + DDD + Event Sourcing inverte a curva: a imutabilidade e a explicitação de side effects fazem com que o código "envelheça como vinho" — o domínio fica mais rico com o tempo, não mais frágil.
+- **Detectada em:** 2026-06-03
+
 ### Platform engineering ↔ trabalho alavancado: centralizar uma vez, beneficiar todos
 
 - **Domínios:** tecnico ↔ tecnico (reforço interno)

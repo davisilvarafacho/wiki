@@ -17,6 +17,52 @@ grep "^## \[" log.md | tail -10
 
 ---
 
+## [2026-06-03] ingest | Por que o Nubank usa uma linguagem que quase ninguém conhece? (pasquadev, YouTube)
+
+Fonte: vídeo YouTube — https://www.youtube.com/watch?v=3WDjURKrUK4
+Autor: Viní Pasquantônio (pasquadev) — engenheiro brasileiro, canal pasquadev
+
+Páginas criadas:
+- `raw/tecnico/2026-06-03-nubank-clojure-event-sourcing-pasquadev.md`
+- `tecnico/sources/2026-06-03-nubank-clojure-event-sourcing-pasquadev.md`
+- `tecnico/concepts/programacao-funcional.md`
+- `tecnico/concepts/event-sourcing.md`
+- `tecnico/concepts/imutabilidade.md`
+- `tecnico/concepts/side-effects.md`
+- `tecnico/entities/nubank.md`
+- `tecnico/entities/clojure.md`
+- `tecnico/entities/datomic.md`
+- `tecnico/entities/autores/vini-pasquantonio.md`
+
+---
+
+## [2026-06-03] ingest | O mecanismo que está quebrando seu cérebro (Dr. José Ricardo Gois, YouTube)
+
+Fonte: `raw/pessoal/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro.md`
+URL: https://www.youtube.com/watch?v=mfEeuu4OBao
+
+Páginas criadas:
+- `raw/pessoal/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro.md`
+- `pessoal/sources/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro.md`
+- `pessoal/concepts/scroll-infinito.md`
+- `pessoal/concepts/dopamina.md`
+- `pessoal/concepts/reforco-por-razao-variavel.md`
+- `pessoal/concepts/dessensibilizacao-dopaminergica.md`
+
+Páginas atualizadas:
+- `pessoal/entities/autores/jose-ricardo-gois.md` — adicionadas novas fontes e conceitos
+- `_meta/index.md`
+- `_meta/log.md`
+
+Conexões cross-domain detectadas:
+- `pessoal/scroll-infinito` + `pessoal/dessensibilizacao-dopaminergica` ↔ `pessoal/manutencao-da-vida`: restaurar o sistema nervoso segue a mesma lógica de juros compostos; negligência acumula dano silencioso
+- `pessoal/dopamina` + `pessoal/scroll-infinito` ↔ `estudos/carga-cognitiva`: o celular rouba atenção mesmo sem scroll ativo; o scroll intensifica o mesmo mecanismo
+- `pessoal/reforco-por-razao-variavel` ↔ `pessoal/mecanismo-de-protecao-cerebral`: ambos descrevem respostas automáticas do cérebro que contornam a decisão consciente
+
+Stub a criar: `pessoal/entities/autores/byung-chul-han.md` (filósofo "sociedade da autoexploração")
+
+---
+
 ## [2026-06-03] ingest | O Tédio É a Saída dos Seus Problemas (Dr. José Ricardo Gois, YouTube)
 
 Fonte: vídeo YouTube — https://youtu.be/W5yUiVWluGk
