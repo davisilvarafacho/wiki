@@ -40,4 +40,5 @@ A cultura de produtividade e desenvolvimento pessoal tende a demonizar qualquer 
 - [[pessoal/concepts/gratidao]] — a face afetiva da paciência ativa: valorizar o que existe agora
 - [[pessoal/concepts/memento-mori]] — consciência da finitude como antídoto à espera passiva
 - [[pessoal/concepts/dedicacao-vs-talento]] — hábitos e escolhas como o que realmente move na direção certa
+- [[pessoal/concepts/mentalidade-de-temporada]] — complemento direto: por que a temporada existe e o que ela produz
 - [[pessoal/sources/2026-05-17-este-video-vai-te-encontrar]]

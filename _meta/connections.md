@@ -143,3 +143,17 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Páginas:** [[tecnico/entities/memex]] ↔ [[tecnico/concepts/llm-wiki]]
 - **Descrição:** A visão de Vannevar Bush (1945) de um repositório pessoal com trilhas associativas é a mesma ideia do LLM Wiki — o que mudou é a viabilidade da manutenção. Um ensaio de 1945 que só agora se tornou implementável.
 - **Detectada em:** 2026-05-14
+
+### Manutenção de software ↔ manutenção da vida: o mesmo princípio, domínios diferentes
+
+- **Domínios:** tecnico ↔ pessoal
+- **Páginas:** [[tecnico/concepts/churn-codebase]] ↔ [[pessoal/concepts/manutencao-da-vida]]
+- **Descrição:** Vasilios Syrakis (Atlassian) e Pinho descrevem o mesmo fenômeno em domínios opostos: o que não é cuidado deteriora progressivamente, e a deterioração tem juros compostos. No código, churn acumulado sem atenção arquitetural gera acoplamento crescente e custo exponencial de mudança. Na vida, negligência de hábitos, saúde e relacionamentos cobra o mesmo preço — só muda o tempo de latência. O cuidado contínuo não é opcional para quem quer manter a capacidade de mudar.
+- **Detectada em:** 2026-06-03
+
+### Platform engineering ↔ trabalho alavancado: centralizar uma vez, beneficiar todos
+
+- **Domínios:** tecnico ↔ tecnico (reforço interno)
+- **Páginas:** [[tecnico/concepts/platform-engineering]] ↔ [[tecnico/concepts/trabalho-alavancado]]
+- **Descrição:** A plataforma de edge da Atlassian é o exemplo concreto mais claro de trabalho alavancado técnico: autenticação, DoS protection e rate limiting implementados uma vez no edge — mil times de backend herdam sem esforço. O tech lead que constrói plataforma está produzindo leverage puro: esforço concentrado no presente, benefício distribuído para outros ao longo do tempo.
+- **Detectada em:** 2026-06-03

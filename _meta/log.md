@@ -17,6 +17,53 @@ grep "^## \[" log.md | tail -10
 
 ---
 
+## [2026-06-03] ingest | I was laid off by Atlassian (Vasilios Syrakis, YouTube)
+
+Fonte: vídeo YouTube — https://www.youtube.com/watch?v=55pTFVoclvE
+Autor: Vasilios Syrakis — engenheiro de plataforma com 8 anos de Atlassian
+
+Páginas criadas:
+- `tecnico/sources/2026-05-24-laid-off-atlassian-vasilios.md`
+- `tecnico/entities/autores/vasilios-syrakis.md`
+- `tecnico/concepts/envoy-control-plane.md`
+- `tecnico/concepts/sidecar-pattern.md`
+- `tecnico/concepts/platform-engineering.md`
+- `tecnico/concepts/churn-codebase.md`
+- `tecnico/entities/envoy-proxy.md` (stub com contexto Atlassian)
+
+Páginas atualizadas:
+- `_meta/connections.md` — 2 novas conexões cross-domain
+- `_meta/index.md`
+- `_meta/log.md`
+
+Conexões cross-domain registradas:
+- `tecnico/churn-codebase` ↔ `pessoal/manutencao-da-vida`: manutenção de software e manutenção de vida como o mesmo princípio (deterioração com juros compostos)
+- `tecnico/platform-engineering` ↔ `tecnico/trabalho-alavancado`: centralizar concerns no edge como exemplo concreto de leverage técnico
+
+---
+
+## [2026-06-03] ingest | Give God 56 Seconds.. Don't Skip This Message. (For Purpose Driven Men, YouTube)
+
+Fonte: `raw/pessoal/2026-06-03-give-god-56-seconds.md`
+URL: https://www.youtube.com/watch?v=VcVTOR7zXrM
+
+Páginas criadas:
+- `raw/pessoal/2026-06-03-give-god-56-seconds.md`
+- `pessoal/sources/2026-06-03-give-god-56-seconds.md`
+- `pessoal/concepts/mentalidade-de-temporada.md`
+- `pessoal/entities/autores/for-purpose-driven-men.md`
+
+Páginas atualizadas:
+- `pessoal/concepts/autodisciplina.md` — link para mentalidade-de-temporada
+- `pessoal/concepts/paciencia-ativa.md` — link para mentalidade-de-temporada como complemento direto
+- `_meta/index.md`
+- `_meta/log.md`
+
+Conexões cross-domain registradas:
+- `pessoal/mentalidade-de-temporada` ↔ `espiritual/`: padrão prova → formação → benção é central em Tiago 1:2-4 e Romanos 5:3-4
+
+---
+
 ## [2026-05-18] ingest | This video will find you before your next chapter (emmy, YouTube)
 
 Fonte: `raw/pessoal/2026-05-17-este-video-vai-te-encontrar.md`

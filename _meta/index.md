@@ -35,7 +35,9 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ### Conceitos
 - [[tecnico/concepts/anycast]] — técnica de roteamento onde múltiplos servidores compartilham o mesmo IP; BGP roteia para o mais próximo; base dos root DNS servers e CDNs
 - [[tecnico/concepts/autovacuum]] — processo automático de remoção de dead tuples no PostgreSQL; vulnerável a transações longas
+- [[tecnico/concepts/churn-codebase]] — alta taxa de modificações numa área do código como smell de complexidade crescente e dívida técnica iminente
 - [[tecnico/concepts/dns]] — Domain Name System; traduz nomes de domínio em IPs; hierarquia root → TLD → authoritative; resolução recursiva com caching por TTL
+- [[tecnico/concepts/envoy-control-plane]] — servidor de gerenciamento que distribui configuração dinâmica para frotas de proxies Envoy via protocolo xDS; sem restart
 - [[tecnico/concepts/feed-forward]] — mecanismo preventivo (feed forward) e corretivo (feedback/sensores) da engenharia de controle aplicado a agentes de IA
 - [[tecnico/concepts/glue-records]] — registros A/AAAA incluídos fora da zona autoritativa para quebrar dependência circular quando o name server está dentro do próprio domínio
 - [[tecnico/concepts/harness-engineering]] — ambiente operacional ao redor do LLM; transforma modelo poderoso em agente confiável; feed forward + sensores + memória + orquestração
@@ -43,7 +45,9 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/llm-wiki]] — padrão de wiki pessoal mantida por LLM; conhecimento compilado incrementalmente
 - [[tecnico/concepts/multi-agent-orchestration]] — agente implementador e agente validador em processos separados; neutralidade garantida por missões opostas
 - [[tecnico/concepts/mvcc]] — Multi-Version Concurrency Control; múltiplas versões físicas por linha lógica para concorrência sem locks
+- [[tecnico/concepts/platform-engineering]] — disciplina de construir plataformas internas self-service que centralizam concerns transversais e multiplicam produtividade dos times de produto
 - [[tecnico/concepts/rag]] — Retrieval-Augmented Generation; re-derivação de conhecimento por query
+- [[tecnico/concepts/sidecar-pattern]] — processo auxiliar colocado ao lado de um processo principal para estender comportamento sem modificar seu código; base de service mesh
 - [[tecnico/concepts/spec-driven]] — metodologia de desenvolvimento com agentes onde a spec precede o código; é feed forward puro; stub
 - [[tecnico/concepts/table-bloat]] — crescimento excessivo de tabelas por acúmulo de dead tuples; VACUUM regular não devolve espaço ao SO
 - [[tecnico/concepts/tech-lead]] — papel de liderança técnica híbrido; direção técnica + crescimento do time + entrega
@@ -55,9 +59,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/entities/autores/andy-pavlo]] — professor CMU, cofundador OtterTune; pesquisador de MVCC e sistemas de BD
 - [[tecnico/entities/autores/dhruv-prajapati]] — autor FreeCodeCamp; artigos sobre redes e infraestrutura web
 - [[tecnico/entities/autores/josh-hornby]] — engenheiro e escritor; série "Tech Lead Series" com conselhos práticos de liderança técnica
+- [[tecnico/entities/autores/vasilios-syrakis]] — engenheiro de plataforma; 8 anos Atlassian; construiu infra de edge com Envoy, OSB e sidecars em Rust
 - [[tecnico/entities/autores/waldemar-neto]] — dev brasileiro, canal Dev Lab; criador de TLC Spec Driven e framework PBQ; foco em harness engineering
 
 #### Outras
+- [[tecnico/entities/envoy-proxy]] — proxy open-source L4/L7 com API de configuração dinâmica (xDS); substitui load balancers proprietários; base de service meshes
 - [[tecnico/entities/memex]] — dispositivo hipotético de Vannevar Bush (1945); precursor conceitual da wiki pessoal
 - [[tecnico/entities/obsidian]] — editor markdown local; "IDE da wiki" no padrão LLM Wiki
 - [[tecnico/entities/postgresql]] — DBMS relacional open-source; o mais popular para novas aplicações; MVCC append-only é seu maior problema
@@ -69,6 +75,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/sources/2026-05-14-what-is-a-tech-lead]] — Josh Hornby: definição do papel de tech lead; três responsabilidades e multiplier test
 - [[tecnico/sources/2026-05-15-how-dns-works]] — Dhruv Prajapati: funcionamento completo do DNS, da resolução hierárquica à propagação de domínios
 - [[tecnico/sources/2026-05-17-harness-engineering-waldemar-neto]] — Waldemar Neto: harness engineering como próximo passo além de spec driven; 6 falhas de agentes, feed forward vs. feedback, multi-agent orchestration
+- [[tecnico/sources/2026-05-24-laid-off-atlassian-vasilios]] — Vasilios Syrakis: 8 anos de Atlassian; OSB + Envoy control plane + sidecars em Rust; churn, manutenção e mentoria
 
 ### Notas
 *(vazio)*
@@ -89,6 +96,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/fingir-ate-se-tornar]] — performar antes de ser natural como mecanismo real de desenvolvimento; o atrito e a sensação de impostor são constitutivos do processo
 - [[pessoal/concepts/gratidao]] — reconhecimento ativo do que existe agora, antes do próximo capítulo chegar; postura de percepção, não contentamento ingênuo
 - [[pessoal/concepts/manutencao-da-vida]] — princípio central: tudo que é valioso exige cuidado contínuo; negligência tem juros compostos
+- [[pessoal/concepts/mentalidade-de-temporada]] — temporada atual é teste, não destino; dificuldade forma para sustentar o que vem depois
 - [[pessoal/concepts/mecanismo-de-protecao-cerebral]] — o cérebro trata o novo como perigo evolutivo; a "voz que manda desistir" é defesa primitiva, não intuição
 - [[pessoal/concepts/memento-mori]] — consciência da mortalidade como filtro do essencial; dissolve o ruído de expectativas externas e medo de perda
 - [[pessoal/concepts/novidade-vs-dificuldade]] — distinção entre dificuldade percebida (novidade + defesa cerebral) e dificuldade real; base do mindset de aprendizado
@@ -100,6 +108,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 
 #### Autores
 - [[pessoal/entities/autores/cultura-renegada]] — canal brasileiro de YouTube Shorts; conteúdo motivacional sobre mindset, medo de errar e zona de conforto
+- [[pessoal/entities/autores/for-purpose-driven-men]] — canal YouTube; conteúdo motivacional cristão para homens; foco em propósito e perseverança
 - [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 - [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, hábitos e finanças pessoais
 - [[pessoal/entities/autores/steve-jobs]] — cofundador Apple, NeXT e Pixar; referência em vocação, design e visão de vida
@@ -113,6 +122,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo]] — Pinho: "Nada é difícil, só é novo pra você"; mecanismo cerebral de defesa, hábito de reclamação e dedicação como transformadora
 - [[pessoal/sources/2026-05-17-este-video-vai-te-encontrar]] — emmy: paciência ativa; fazer o máximo do presente enquanto aguarda o próximo capítulo; gratidão e sonho com intenção
 - [[pessoal/sources/2026-05-17-nao-ignore-a-manutencao-da-sua-vida]] — Pinho: manutenção como princípio de vida; conquista é só o começo; negligência tem juros
+- [[pessoal/sources/2026-06-03-give-god-56-seconds]] — For Purpose Driven Men: temporada atual como teste formativo; grit e disciplina se constroem na adversidade
 - [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
 
 ### Notas
