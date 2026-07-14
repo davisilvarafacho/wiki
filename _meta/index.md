@@ -40,8 +40,10 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/programacao-funcional]] — paradigma baseado em imutabilidade e ausência de side effects; decompõe sistemas complexos em funções puras e composíveis
 - [[tecnico/concepts/side-effects]] — ações que uma função faz além de retornar um valor; em programação funcional são explicitados e empurrados para a periferia do sistema
 - [[tecnico/concepts/autovacuum]] — processo automático de remoção de dead tuples no PostgreSQL; vulnerável a transações longas
+- [[tecnico/concepts/caching]] — guardar resultado de operação cara em memória/storage rápido; memcached/redis são efêmeros; configurável por site, view ou fragmento
 - [[tecnico/concepts/churn-codebase]] — alta taxa de modificações numa área do código como smell de complexidade crescente e dívida técnica iminente
 - [[tecnico/concepts/conexoes-persistentes]] — reaproveitar conexões de banco entre requests via `CONN_MAX_AGE` no Django; caso real de corte de 50% na carga do banco
+- [[tecnico/concepts/desnormalizacao]] — armazenar redundância proposital para evitar recálculo; troca custo de leitura por manutenção; último recurso
 - [[tecnico/concepts/dns]] — Domain Name System; traduz nomes de domínio em IPs; hierarquia root → TLD → authoritative; resolução recursiva com caching por TTL
 - [[tecnico/concepts/envoy-control-plane]] — servidor de gerenciamento que distribui configuração dinâmica para frotas de proxies Envoy via protocolo xDS; sem restart
 - [[tecnico/concepts/feed-forward]] — mecanismo preventivo (feed forward) e corretivo (feedback/sensores) da engenharia de controle aplicado a agentes de IA
@@ -53,6 +55,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/mvcc]] — Multi-Version Concurrency Control; múltiplas versões físicas por linha lógica para concorrência sem locks
 - [[tecnico/concepts/n-plus-1-queries]] — padrão ineficiente de 1 query + N queries relacionadas; resolvido no Django com `select_related`/`prefetch_related`
 - [[tecnico/concepts/operacoes-em-lote]] — agrupar inserts/updates em queries únicas (`bulk_create`/`bulk_update`) em vez de uma por objeto
+- [[tecnico/concepts/particionamento-de-tabelas]] — dividir tabela grande em partes menores (ex: por período); nativo no Postgres 10+; combinar com réplicas de leitura
 - [[tecnico/concepts/platform-engineering]] — disciplina de construir plataformas internas self-service que centralizam concerns transversais e multiplicam produtividade dos times de produto
 - [[tecnico/concepts/rag]] — Retrieval-Augmented Generation; re-derivação de conhecimento por query
 - [[tecnico/concepts/reducao-de-transferencia-de-dados]] — minimizar dados buscados do banco (`.only()`/`.defer()`) e devolvidos pela API; custo escala com volume de requests
@@ -72,12 +75,14 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/entities/autores/dhruv-prajapati]] — autor FreeCodeCamp; artigos sobre redes e infraestrutura web
 - [[tecnico/entities/autores/josh-hornby]] — engenheiro e escritor; série "Tech Lead Series" com conselhos práticos de liderança técnica
 - [[tecnico/entities/autores/nicolae-godina]] — 5 anos de Django em produção; ênfase em infraestrutura (Docker/Kubernetes) e conexões persistentes
+- [[tecnico/entities/autores/tarek-eissa]] — autor Medium; compilação de técnicas de performance e escalabilidade em Django
 - [[tecnico/entities/autores/vasilios-syrakis]] — engenheiro de plataforma; 8 anos Atlassian; construiu infra de edge com Envoy, OSB e sidecars em Rust
 - [[tecnico/entities/autores/vini-pasquantonio]] — engenheiro brasileiro (pasquadev); YouTube sobre funcional, DDD e event sourcing; experiência com Scala na Alemanha
 - [[tecnico/entities/autores/waldemar-neto]] — dev brasileiro, canal Dev Lab; criador de TLC Spec Driven e framework PBQ; foco em harness engineering
 
 #### Outras
 - [[tecnico/entities/alibaba-nlp]] — grupo de pesquisa em NLP/IA do Alibaba; autores do VRAG e VimRAG; série Qwen de VLMs
+- [[tecnico/entities/celery]] — fila de tarefas assíncronas para Python; usada com Django para tirar I/O de terceiros do ciclo request-response
 - [[tecnico/entities/clojure]] — linguagem funcional Lisp na JVM; imutabilidade por padrão; linguagem principal do Nubank
 - [[tecnico/entities/datomic]] — banco de dados imutável; Event Sourcing nativo; nunca apaga histórico; usado pelo Nubank
 - [[tecnico/entities/django]] — framework web Python; stack de backend principal do usuário; performance em escala
@@ -98,6 +103,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/sources/2026-05-17-harness-engineering-waldemar-neto]] — Waldemar Neto: harness engineering como próximo passo além de spec driven; 6 falhas de agentes, feed forward vs. feedback, multi-agent orchestration
 - [[tecnico/sources/2026-05-24-laid-off-atlassian-vasilios]] — Vasilios Syrakis: 8 anos de Atlassian; OSB + Envoy control plane + sidecars em Rust; churn, manutenção e mentoria
 - [[tecnico/sources/2026-06-03-nubank-clojure-event-sourcing-pasquadev]] — pasquadev: análise do case do Nubank com Clojure e Datomic; programação funcional, Event Sourcing e DDD como stack para sistemas de longa vida
+- [[tecnico/sources/2026-07-14-como-escalar-django-para-1-milhao-de-usuarios]] — Tarek Eissa: compilação de técnicas de performance em Django — N+1 queries, gunicorn, serializers DRF, paginação, índices, caching, Celery, particionamento, CDN, desnormalização
 - [[tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]] — Nicolae Godina: infraestrutura (Docker/Kubernetes), conexões persistentes (CONN_MAX_AGE), operações em lote e redução de transferência de dados no Django
 
 ### Notas

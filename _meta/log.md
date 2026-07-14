@@ -483,3 +483,30 @@ Destaques do ingest:
 - Meta de latência concreta: 100ms por endpoint, 20ms por query
 - `tecnico/concepts/n-plus-1-queries.md` existia como arquivo vazio (stub sem conteúdo) desde um ingest anterior incompleto na mesma sessão; populado com conteúdo real a partir desta fonte
 
+---
+
+## [2026-07-14] ingest | How to scale a Django application to serve one million users? (Tarek Eissa)
+
+Fonte: `raw/tecnico/2026-07-14 How to scale a Django application to serve one million users.md`
+URL: https://tarekeesa7.medium.com/how-to-scale-a-django-application-to-serve-one-million-users-f3f4237660c8
+
+Ingest feito em sessão paralela à do ingest de Nicolae Godina (ver entrada acima); ambas as sessões trabalharam concorrentemente na mesma fonte-irmã sobre Django em escala, e o commit consolidado (`0e11b60`) já uniu a maior parte do conteúdo. Esta entrada registra o restante: as páginas específicas desta fonte que não tinham sido acrescentadas ao índice, e os conceitos ainda faltantes.
+
+Páginas criadas:
+- `tecnico/sources/2026-07-14-como-escalar-django-para-1-milhao-de-usuarios.md`
+- `tecnico/entities/django.md` (seção "Performance em escala"; a seção de infraestrutura foi acrescentada depois pela sessão de Nicolae Godina)
+- `tecnico/entities/celery.md`
+- `tecnico/entities/autores/tarek-eissa.md` (stub)
+- `tecnico/concepts/caching.md`
+- `tecnico/concepts/desnormalizacao.md`
+- `tecnico/concepts/particionamento-de-tabelas.md`
+
+Páginas atualizadas:
+- `tecnico/entities/postgresql.md` — nova seção "Escalabilidade em tabelas grandes"; frontmatter `fontes` ampliado
+- `_meta/index.md` — adicionadas entradas que a sessão paralela não cobriu: `caching`, `desnormalizacao`, `particionamento-de-tabelas`, `celery`, `autores/tarek-eissa`, e a source page desta fonte
+
+Destaques do ingest:
+- N+1 queries é apresentado como a alavanca de maior impacto em performance Django — antes de qualquer infraestrutura ou caching
+- Denormalização, PyPy e Swig são explicitamente últimos recursos — a maioria das aplicações nunca deveria precisar chegar lá
+- Duas fontes complementares sobre o mesmo tema, com ênfases opostas (código/ORM vs. infraestrutura) — ver [[tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]]
+

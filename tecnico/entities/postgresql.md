@@ -5,7 +5,7 @@ dominio: tecnico
 tags: [banco-de-dados, sql, open-source, relacional, mvcc]
 criado: 2026-05-14
 atualizado: 2026-07-14
-fontes: [tecnico/sources/2026-05-14-postgresql-mvcc-the-part-we-hate-the-most, tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]
+fontes: [tecnico/sources/2026-05-14-postgresql-mvcc-the-part-we-hate-the-most, tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia, tecnico/sources/2026-07-14-como-escalar-django-para-1-milhao-de-usuarios]
 ---
 
 # PostgreSQL
@@ -39,6 +39,10 @@ MySQL (InnoDB) e Oracle armazenam **deltas** das mudanças (não a linha inteira
 ## Gestão de índices e monitoramento
 
 Índices aceleram SELECT mas penalizam INSERT/UPDATE — o Django ORM pode gerar índices redundantes que exigem checagem e remoção manual. [pghero](https://github.com/ankane/pghero) é citado como dashboard de performance para identificar slow queries e índices duplicados. Ver [[tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]].
+
+## Escalabilidade em tabelas grandes
+
+Para tabelas que passam de milhões de registros, ver [[tecnico/concepts/particionamento-de-tabelas|particionamento de tabelas]] (nativo a partir da versão 10) combinado com réplicas de leitura. Ver [[tecnico/sources/2026-07-14-como-escalar-django-para-1-milhao-de-usuarios]].
 
 ## Histórico relevante
 
