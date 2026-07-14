@@ -4,8 +4,8 @@ tipo: entity
 dominio: tecnico
 tags: [banco-de-dados, sql, open-source, relacional, mvcc]
 criado: 2026-05-14
-atualizado: 2026-05-14
-fontes: [tecnico/sources/2026-05-14-postgresql-mvcc-the-part-we-hate-the-most]
+atualizado: 2026-07-14
+fontes: [tecnico/sources/2026-05-14-postgresql-mvcc-the-part-we-hate-the-most, tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]
 ---
 
 # PostgreSQL
@@ -35,6 +35,10 @@ Ver análise detalhada em [[tecnico/sources/2026-05-14-postgresql-mvcc-the-part-
 ## Comparação com concorrentes em MVCC
 
 MySQL (InnoDB) e Oracle armazenam **deltas** das mudanças (não a linha inteira) e usam **identificadores lógicos** nos índices secundários (não endereços físicos), evitando os problemas #1 e #3.
+
+## Gestão de índices e monitoramento
+
+Índices aceleram SELECT mas penalizam INSERT/UPDATE — o Django ORM pode gerar índices redundantes que exigem checagem e remoção manual. [pghero](https://github.com/ankane/pghero) é citado como dashboard de performance para identificar slow queries e índices duplicados. Ver [[tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]].
 
 ## Histórico relevante
 

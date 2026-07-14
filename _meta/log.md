@@ -2,7 +2,7 @@
 title: "Log da Wiki"
 tipo: meta
 criado: 2026-05-14
-atualizado: 2026-05-18
+atualizado: 2026-07-14
 ---
 
 # Log
@@ -453,4 +453,33 @@ Conexões cross-domain registradas:
 - Regras de lar canônico e cross-domain definidas no `CLAUDE.md`
 - No ingest, stub em `entities/autores/` criado automaticamente quando fonte tem campo `autor` sem página correspondente
 - `_meta/index.md` atualizado: seção "Entidades" de cada domínio subdivida em "Autores" e "Outras"
+
+---
+
+## [2026-07-14] ingest | How Django can handle 100 millions of requests per day (Nicolae Godina)
+
+Fonte: `raw/tecnico/2026-07-14 How Django can handle 100 millions of requests per day.md`
+URL: https://medium.com/ebs-integrator/how-django-can-handle-100-millions-of-requests-per-day-c4cdbf48639e
+
+Páginas criadas:
+- `tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia.md`
+- `tecnico/entities/docker.md`
+- `tecnico/entities/kubernetes.md`
+- `tecnico/entities/autores/nicolae-godina.md` (stub)
+- `tecnico/concepts/n-plus-1-queries.md` (estava criado como stub vazio por ingest anterior; populado agora)
+- `tecnico/concepts/conexoes-persistentes.md`
+- `tecnico/concepts/operacoes-em-lote.md`
+- `tecnico/concepts/reducao-de-transferencia-de-dados.md`
+
+Páginas atualizadas:
+- `tecnico/entities/django.md` — nova seção sobre infraestrutura e conexões persistentes; frontmatter `fontes` ampliado
+- `tecnico/entities/postgresql.md` — seção sobre gestão de índices e pghero; frontmatter `fontes` ampliado
+- `_meta/index.md`
+- `_meta/log.md`
+
+Destaques do ingest:
+- Ênfase diferente da fonte irmã ([[tecnico/sources/2026-07-14-como-escalar-django-para-1-milhao-de-usuarios]]): infraestrutura (Docker/Kubernetes, monitoramento proativo) tratada como primeira preocupação, não complemento
+- `CONN_MAX_AGE` com caso real documentado: corte de 50% na carga do banco, permitindo downgrade de instância AWS Aurora
+- Meta de latência concreta: 100ms por endpoint, 20ms por query
+- `tecnico/concepts/n-plus-1-queries.md` existia como arquivo vazio (stub sem conteúdo) desde um ingest anterior incompleto na mesma sessão; populado com conteúdo real a partir desta fonte
 

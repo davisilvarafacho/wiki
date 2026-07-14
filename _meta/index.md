@@ -2,7 +2,7 @@
 title: "Índice Global"
 tipo: meta
 criado: 2026-05-14
-atualizado: 2026-05-14
+atualizado: 2026-07-14
 ---
 
 # Índice Global
@@ -41,6 +41,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/side-effects]] — ações que uma função faz além de retornar um valor; em programação funcional são explicitados e empurrados para a periferia do sistema
 - [[tecnico/concepts/autovacuum]] — processo automático de remoção de dead tuples no PostgreSQL; vulnerável a transações longas
 - [[tecnico/concepts/churn-codebase]] — alta taxa de modificações numa área do código como smell de complexidade crescente e dívida técnica iminente
+- [[tecnico/concepts/conexoes-persistentes]] — reaproveitar conexões de banco entre requests via `CONN_MAX_AGE` no Django; caso real de corte de 50% na carga do banco
 - [[tecnico/concepts/dns]] — Domain Name System; traduz nomes de domínio em IPs; hierarquia root → TLD → authoritative; resolução recursiva com caching por TTL
 - [[tecnico/concepts/envoy-control-plane]] — servidor de gerenciamento que distribui configuração dinâmica para frotas de proxies Envoy via protocolo xDS; sem restart
 - [[tecnico/concepts/feed-forward]] — mecanismo preventivo (feed forward) e corretivo (feedback/sensores) da engenharia de controle aplicado a agentes de IA
@@ -50,8 +51,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/concepts/llm-wiki]] — padrão de wiki pessoal mantida por LLM; conhecimento compilado incrementalmente
 - [[tecnico/concepts/multi-agent-orchestration]] — agente implementador e agente validador em processos separados; neutralidade garantida por missões opostas
 - [[tecnico/concepts/mvcc]] — Multi-Version Concurrency Control; múltiplas versões físicas por linha lógica para concorrência sem locks
+- [[tecnico/concepts/n-plus-1-queries]] — padrão ineficiente de 1 query + N queries relacionadas; resolvido no Django com `select_related`/`prefetch_related`
+- [[tecnico/concepts/operacoes-em-lote]] — agrupar inserts/updates em queries únicas (`bulk_create`/`bulk_update`) em vez de uma por objeto
 - [[tecnico/concepts/platform-engineering]] — disciplina de construir plataformas internas self-service que centralizam concerns transversais e multiplicam produtividade dos times de produto
 - [[tecnico/concepts/rag]] — Retrieval-Augmented Generation; re-derivação de conhecimento por query
+- [[tecnico/concepts/reducao-de-transferencia-de-dados]] — minimizar dados buscados do banco (`.only()`/`.defer()`) e devolvidos pela API; custo escala com volume de requests
 - [[tecnico/concepts/sidecar-pattern]] — processo auxiliar colocado ao lado de um processo principal para estender comportamento sem modificar seu código; base de service mesh
 - [[tecnico/concepts/spec-driven]] — metodologia de desenvolvimento com agentes onde a spec precede o código; é feed forward puro; stub
 - [[tecnico/concepts/table-bloat]] — crescimento excessivo de tabelas por acúmulo de dead tuples; VACUUM regular não devolve espaço ao SO
@@ -67,6 +71,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/entities/autores/andy-pavlo]] — professor CMU, cofundador OtterTune; pesquisador de MVCC e sistemas de BD
 - [[tecnico/entities/autores/dhruv-prajapati]] — autor FreeCodeCamp; artigos sobre redes e infraestrutura web
 - [[tecnico/entities/autores/josh-hornby]] — engenheiro e escritor; série "Tech Lead Series" com conselhos práticos de liderança técnica
+- [[tecnico/entities/autores/nicolae-godina]] — 5 anos de Django em produção; ênfase em infraestrutura (Docker/Kubernetes) e conexões persistentes
 - [[tecnico/entities/autores/vasilios-syrakis]] — engenheiro de plataforma; 8 anos Atlassian; construiu infra de edge com Envoy, OSB e sidecars em Rust
 - [[tecnico/entities/autores/vini-pasquantonio]] — engenheiro brasileiro (pasquadev); YouTube sobre funcional, DDD e event sourcing; experiência com Scala na Alemanha
 - [[tecnico/entities/autores/waldemar-neto]] — dev brasileiro, canal Dev Lab; criador de TLC Spec Driven e framework PBQ; foco em harness engineering
@@ -75,7 +80,10 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/entities/alibaba-nlp]] — grupo de pesquisa em NLP/IA do Alibaba; autores do VRAG e VimRAG; série Qwen de VLMs
 - [[tecnico/entities/clojure]] — linguagem funcional Lisp na JVM; imutabilidade por padrão; linguagem principal do Nubank
 - [[tecnico/entities/datomic]] — banco de dados imutável; Event Sourcing nativo; nunca apaga histórico; usado pelo Nubank
+- [[tecnico/entities/django]] — framework web Python; stack de backend principal do usuário; performance em escala
+- [[tecnico/entities/docker]] — plataforma de containerização; base para orquestração via Kubernetes
 - [[tecnico/entities/envoy-proxy]] — proxy open-source L4/L7 com API de configuração dinâmica (xDS); substitui load balancers proprietários; base de service meshes
+- [[tecnico/entities/kubernetes]] — orquestrador de containers; réplicas, upgrade sem downtime, métricas por pod/nó
 - [[tecnico/entities/nubank]] — maior banco digital da América Latina; 100M clientes; stack: Clojure + Datomic + Event Sourcing
 - [[tecnico/entities/memex]] — dispositivo hipotético de Vannevar Bush (1945); precursor conceitual da wiki pessoal
 - [[tecnico/entities/obsidian]] — editor markdown local; "IDE da wiki" no padrão LLM Wiki
@@ -90,6 +98,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[tecnico/sources/2026-05-17-harness-engineering-waldemar-neto]] — Waldemar Neto: harness engineering como próximo passo além de spec driven; 6 falhas de agentes, feed forward vs. feedback, multi-agent orchestration
 - [[tecnico/sources/2026-05-24-laid-off-atlassian-vasilios]] — Vasilios Syrakis: 8 anos de Atlassian; OSB + Envoy control plane + sidecars em Rust; churn, manutenção e mentoria
 - [[tecnico/sources/2026-06-03-nubank-clojure-event-sourcing-pasquadev]] — pasquadev: análise do case do Nubank com Clojure e Datomic; programação funcional, Event Sourcing e DDD como stack para sistemas de longa vida
+- [[tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]] — Nicolae Godina: infraestrutura (Docker/Kubernetes), conexões persistentes (CONN_MAX_AGE), operações em lote e redução de transferência de dados no Django
 
 ### Notas
 - [[tecnico/notes/2026-05-18-vrag-alibaba]] — nota derivada de conversa com Qwen 3.6 Plus; como funciona o VRAG do Alibaba (Visual RAG, raciocínio iterativo, VRAG-RL, VimRAG)
