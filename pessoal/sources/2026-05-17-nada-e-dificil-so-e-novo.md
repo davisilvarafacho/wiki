@@ -32,7 +32,7 @@ atualizado: 2026-05-17
 - O que chamamos de talento ou dom é interesse aplicado por tempo suficiente — as horas que ninguém viu.
 - Exceção real existe: doenças graves, perdas, traumas, crises financeiras sérias. Mas são exceção, não regra. A maioria do que chamamos de difícil não se encaixa aqui.
 - Distinção operacional: **dificuldade percebida** (novidade + defesa cerebral + narrativa cultural) vs. **dificuldade real** (eventos fora do controle direto). Aprender a separar as duas libera energia emocional.
-- Postura de curiosidade como antídoto: quem começa resistindo sofre mais tempo no desconforto; quem começa curioso atravessa mais rápido.
+- [[pessoal/concepts/postura-de-curiosidade|Postura de curiosidade]] como antídoto: quem começa resistindo sofre mais tempo no desconforto; quem começa curioso atravessa mais rápido.
 - Perguntas para reflexão: "Isso é realmente difícil ou só é novo para mim? Quantas tentativas de fato investi? Quanto tempo real dediquei?"
 
 ---
@@ -56,4 +56,6 @@ atualizado: 2026-05-17
 - [[pessoal/concepts/novidade-vs-dificuldade]]
 - [[pessoal/concepts/mecanismo-de-protecao-cerebral]]
 - [[pessoal/concepts/dedicacao-vs-talento]]
+- [[pessoal/concepts/habito-de-reclamacao]] (lint 2026-07-14)
+- [[pessoal/concepts/postura-de-curiosidade]] (lint 2026-07-14)
 - [[pessoal/entities/autores/pinho]]

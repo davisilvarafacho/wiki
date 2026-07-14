@@ -510,3 +510,17 @@ Destaques do ingest:
 - Denormalização, PyPy e Swig são explicitamente últimos recursos — a maioria das aplicações nunca deveria precisar chegar lá
 - Duas fontes complementares sobre o mesmo tema, com ênfases opostas (código/ORM vs. infraestrutura) — ver [[tecnico/sources/2026-07-14-django-100-milhoes-de-requests-por-dia]]
 
+---
+
+## [2026-07-14 00:00] lint | Auditoria geral da wiki
+
+Achados e correções:
+
+- `tecnico/concepts/async-task-pattern.md` estava completamente vazio (stub nunca preenchido do ingest de [[tecnico/sources/2026-05-24-laid-off-atlassian-vasilios]]) e ausente do índice. Preenchido com o padrão request → queue → worker → state store → polling; adicionado ao índice; cruzado com [[tecnico/entities/celery]].
+- `pessoal/entities/autores/byung-chul-han.md` era referenciado como `(stub)` em duas páginas mas o arquivo nunca tinha sido criado (pendência registrada neste log em 2026-06-03). Criado como stub de autor com a posição "sociedade da autoexploração".
+- `[[habito-de-reclamacao]]` era citado em duas páginas sem página própria. Criado `pessoal/concepts/habito-de-reclamacao.md`.
+- `[[postura de curiosidade]]` era citado com espaços (fora do padrão kebab-case) e sem página própria. Criado `pessoal/concepts/postura-de-curiosidade.md`; link corrigido em `mecanismo-de-protecao-cerebral.md`.
+- `_meta/index.md` atualizado com as 4 páginas novas.
+
+Sem achados: contradições entre fontes, staleness (wiki tem só ~2 meses), páginas órfãs além das listadas acima.
+

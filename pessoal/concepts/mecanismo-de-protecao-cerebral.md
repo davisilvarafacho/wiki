@@ -33,8 +33,8 @@ O resultado é que a maioria das pessoas nunca questiona a voz. Tratam o desconf
 
 Reconhecer que o desconforto inicial é resposta defensiva, não evidência de dificuldade real. A pergunta útil não é "por que isso é tão difícil?" — é "isso é difícil ou apenas novo?".
 
-A distinção entre novidade e dificuldade real é tratada em [[novidade-vs-dificuldade]]. A [[postura de curiosidade]] é o antídoto direto: quem começa uma nova experiência com curiosidade em vez de resistência atravessa o desconforto mais rápido, porque não amplia o sinal defensivo com narrativas de incapacidade.
+A distinção entre novidade e dificuldade real é tratada em [[novidade-vs-dificuldade]]. A [[postura-de-curiosidade]] é o antídoto direto: quem começa uma nova experiência com curiosidade em vez de resistência atravessa o desconforto mais rápido, porque não amplia o sinal defensivo com narrativas de incapacidade.
 
 Uma manifestação específica desse mecanismo é o [[medo-de-errar]]: o cérebro amplifica o custo visível do erro (exposição, julgamento) e oculta o custo invisível da omissão (estagnação). O resultado é que a pessoa se esconde atrás das dúvidas — o que parece prudência, mas é o mecanismo operando.
 
-Ver também: [[novidade-vs-dificuldade]], [[dedicacao-vs-talento]], [[medo-de-errar]], [[zona-de-conforto]]
+Ver também: [[novidade-vs-dificuldade]], [[dedicacao-vs-talento]], [[medo-de-errar]], [[zona-de-conforto]], [[habito-de-reclamacao]], [[postura-de-curiosidade]]

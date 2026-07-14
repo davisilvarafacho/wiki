@@ -44,4 +44,4 @@ Ao se deparar com algo percebido como difícil, as perguntas corretas são:
 
 A resposta honesta a essas perguntas normalmente revela que o problema não é a dificuldade — é a quantidade de exposição e dedicação ainda insuficiente.
 
-Ver também: [[dedicacao-vs-talento]], [[mecanismo-de-protecao-cerebral]]
+Ver também: [[dedicacao-vs-talento]], [[mecanismo-de-protecao-cerebral]], [[habito-de-reclamacao]], [[postura-de-curiosidade]]

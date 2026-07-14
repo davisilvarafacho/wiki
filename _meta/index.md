@@ -35,6 +35,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 
 ### Conceitos
 - [[tecnico/concepts/anycast]] — técnica de roteamento onde múltiplos servidores compartilham o mesmo IP; BGP roteia para o mais próximo; base dos root DNS servers e CDNs
+- [[tecnico/concepts/async-task-pattern]] — request → queue → worker → state store → polling; desacopla recebimento do pedido da execução lenta; mesmo padrão do Celery
 - [[tecnico/concepts/event-sourcing]] — padrão arquitetural onde eventos imutáveis são persistidos no lugar do estado; o estado é derivado reaplicando os eventos; base do Datomic e do Nubank
 - [[tecnico/concepts/imutabilidade]] — dados não mudam depois de criados; elimina bugs de estado compartilhado; fundação da programação funcional e do Event Sourcing
 - [[tecnico/concepts/programacao-funcional]] — paradigma baseado em imutabilidade e ausência de side effects; decompõe sistemas complexos em funções puras e composíveis
@@ -131,9 +132,11 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/manutencao-da-vida]] — princípio central: tudo que é valioso exige cuidado contínuo; negligência tem juros compostos
 - [[pessoal/concepts/mentalidade-de-temporada]] — temporada atual é teste, não destino; dificuldade forma para sustentar o que vem depois
 - [[pessoal/concepts/mecanismo-de-protecao-cerebral]] — o cérebro trata o novo como perigo evolutivo; a "voz que manda desistir" é defesa primitiva, não intuição
+- [[pessoal/concepts/habito-de-reclamacao]] — narrativa herdada de que "X é difícil" absorvida antes de tentar; amplifica o sinal do mecanismo de proteção cerebral
 - [[pessoal/concepts/memento-mori]] — consciência da mortalidade como filtro do essencial; dissolve o ruído de expectativas externas e medo de perda
 - [[pessoal/concepts/modo-do-todo-mundo]] — Heidegger: viver no automático do que "todo mundo" faz, sem nunca ter escolhido; tédio profundo é quando essa casca racha
 - [[pessoal/concepts/novidade-vs-dificuldade]] — distinção entre dificuldade percebida (novidade + defesa cerebral) e dificuldade real; base do mindset de aprendizado
+- [[pessoal/concepts/postura-de-curiosidade]] — entrar em território novo com "vamos ver no que vai dar" em vez de resistência; antídoto direto ao hábito de reclamação
 - [[pessoal/concepts/ocio]] — pausa deliberada para pensar e se conhecer; na Grécia antiga (escolé) era o ponto alto da vida; hoje foi transformado em pecado
 - [[pessoal/concepts/paciencia-ativa]] — paciência que não é espera passiva, mas preparação consciente e aproveitamento máximo do presente enquanto o próximo capítulo não chega
 - [[pessoal/concepts/reforco-por-razao-variavel]] — padrão de recompensa imprevisível é o mais viciante; base do design de cassinos e feeds; o cérebro não para porque não consegue prever a próxima recompensa
@@ -147,6 +150,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 ### Entidades
 
 #### Autores
+- [[pessoal/entities/autores/byung-chul-han]] — filósofo sul-coreano/alemão; "sociedade da autoexploração"; citado (não ingerido diretamente), stub
 - [[pessoal/entities/autores/cultura-renegada]] — canal brasileiro de YouTube Shorts; conteúdo motivacional sobre mindset, medo de errar e zona de conforto
 - [[pessoal/entities/autores/for-purpose-driven-men]] — canal YouTube; conteúdo motivacional cristão para homens; foco em propósito e perseverança
 - [[pessoal/entities/autores/jose-ricardo-gois]] — Dr. José Ricardo Gois; psicologia e filosofia aplicada; autoconhecimento, ócio, alexitimia e economia da atenção
