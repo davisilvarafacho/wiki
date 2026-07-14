@@ -4,8 +4,8 @@ tipo: concept
 dominio: pessoal
 tags: [neurociencia, motivacao, recompensa, atencao, habitos]
 criado: 2026-06-03
-atualizado: 2026-06-03
-fontes: [pessoal/sources/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro]
+atualizado: 2026-07-14
+fontes: [pessoal/sources/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro, pessoal/sources/2026-07-14-foco-imparavel-reservatorio-dopamina]
 ---
 
 # Dopamina
@@ -32,9 +32,14 @@ O resultado: a mesma dose para de fazer efeito. Mas mais do que isso — quando 
 
 O caminho de volta passa por janelas sem estímulo: não pegar o celular ao acordar, comer sem tela, largar o celular antes de dormir. Não é moralismo — é dar tempo ao cérebro para recalibrar os receptores e restaurar as ondas alfa, necessárias para o descanso e para sentir prazer nas coisas simples.
 
+## Dopamina e foco competem pelo mesmo circuito
+
+Os "sprints de dopamina" das redes sociais não competem apenas com o bem-estar — competem diretamente com a capacidade de [[pessoal/concepts/foco]]. Cada descarga rápida de dopamina reforça o padrão de atenção fragmentada; sustentar atenção por período longo (a base do foco treinado) exige justamente resistir a essa busca por estímulo constante. O protocolo de [[pessoal/concepts/protocolo-de-foco-diario]] começa, não por acaso, com uma "manhã de baixa dopamina".
+
 ## Ligações
 
 - [[pessoal/concepts/scroll-infinito]] — o mecanismo que explora a dopamina de antecipação
 - [[pessoal/concepts/reforco-por-razao-variavel]] — a estrutura que mantém o estado de espera
 - [[pessoal/concepts/dessensibilizacao-dopaminergica]] — o efeito cumulativo da superestimulação
 - [[pessoal/concepts/manutencao-da-vida]] — restaurar o sistema dopaminérgico é manutenção do sistema nervoso
+- [[pessoal/concepts/foco]] — a habilidade que compete diretamente pelo mesmo circuito de recompensa

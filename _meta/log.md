@@ -38,6 +38,28 @@ Páginas criadas:
 
 ---
 
+## [2026-07-14 15:32] ingest | Foco Imparável: Treine seu Cérebro como um Gênio (Reservatório de Dopamina, YouTube)
+
+Fonte: vídeo YouTube — https://www.youtube.com/watch?v=KMCp3de0_ts (transcrição obtida via TranscriptAPI)
+Autor: Reservatório de Dopamina — canal brasileiro de neurociência popular
+
+Páginas criadas:
+- `raw/pessoal/2026-07-14-foco-imparavel-reservatorio-dopamina.md`
+- `pessoal/sources/2026-07-14-foco-imparavel-reservatorio-dopamina.md`
+- `pessoal/entities/autores/reservatorio-de-dopamina.md`
+- `pessoal/concepts/foco.md`
+- `pessoal/concepts/efeito-bannister.md`
+- `pessoal/concepts/protocolo-de-foco-diario.md`
+
+Páginas atualizadas:
+- `pessoal/concepts/dopamina.md` — nova seção ligando sprints de dopamina à competição pelo circuito de foco
+- `pessoal/concepts/economia-da-atencao.md` — contraponto histórico com a "atenção renascentista"
+- `estudos/concepts/pratica-espacada.md` — cross-link com foco via LTP (potencial de longa duração)
+- `_meta/connections.md` — nova conexão: foco ↔ prática espaçada (mesmo substrato neural)
+- `_meta/index.md` — novas entradas em conceitos, entidades e sumários de fontes do domínio pessoal
+
+---
+
 ## [2026-06-03] ingest | O mecanismo que está quebrando seu cérebro (Dr. José Ricardo Gois, YouTube)
 
 Fonte: `raw/pessoal/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro.md`

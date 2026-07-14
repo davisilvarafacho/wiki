@@ -207,3 +207,10 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Páginas:** [[tecnico/concepts/platform-engineering]] ↔ [[tecnico/concepts/trabalho-alavancado]]
 - **Descrição:** A plataforma de edge da Atlassian é o exemplo concreto mais claro de trabalho alavancado técnico: autenticação, DoS protection e rate limiting implementados uma vez no edge — mil times de backend herdam sem esforço. O tech lead que constrói plataforma está produzindo leverage puro: esforço concentrado no presente, benefício distribuído para outros ao longo do tempo.
 - **Detectada em:** 2026-06-03
+
+### Foco ↔ prática espaçada: o mesmo substrato neural (LTP)
+
+- **Domínios:** pessoal ↔ estudos
+- **Páginas:** [[pessoal/concepts/foco]] ↔ [[estudos/concepts/pratica-espacada]]
+- **Descrição:** Sustentar atenção em foco profundo e revisar conteúdo em intervalos espaçados são, biologicamente, a mesma operação: ambos dependem do potencial de longa duração (LTP), o mecanismo pelo qual conexões sinápticas se fortalecem com uso repetido/sustentado. Treinar foco e treinar memória não são domínios separados — usam a mesma máquina neural.
+- **Detectada em:** 2026-07-14

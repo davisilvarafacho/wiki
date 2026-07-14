@@ -127,7 +127,9 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/dessensibilizacao-dopaminergica]] — superestimulação crônica deregula receptores de dopamina; o mundo real perde o brilho; apatia persistente sem causa aparente
 - [[pessoal/concepts/dopamina]] — neurotransmissor da antecipação (não do prazer); liberado antes da recompensa, na expectativa; base do vício em scroll
 - [[pessoal/concepts/economia-da-atencao]] — modelo econômico em que atenção é produto; tédio transformado em problema de engajamento; projetado para eliminar o silêncio
+- [[pessoal/concepts/efeito-bannister]] — acreditar que algo é possível como pré-condição para que se torne possível; nome a partir do recorde de Roger Bannister
 - [[pessoal/concepts/fingir-ate-se-tornar]] — performar antes de ser natural como mecanismo real de desenvolvimento; o atrito e a sensação de impostor são constitutivos do processo
+- [[pessoal/concepts/foco]] — habilidade neuroplástica, não talento; atenção oscila em ondas (noradrenalina); consolidação via potencial de longa duração (LTP)
 - [[pessoal/concepts/gratidao]] — reconhecimento ativo do que existe agora, antes do próximo capítulo chegar; postura de percepção, não contentamento ingênuo
 - [[pessoal/concepts/manutencao-da-vida]] — princípio central: tudo que é valioso exige cuidado contínuo; negligência tem juros compostos
 - [[pessoal/concepts/mentalidade-de-temporada]] — temporada atual é teste, não destino; dificuldade forma para sustentar o que vem depois
@@ -139,6 +141,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/postura-de-curiosidade]] — entrar em território novo com "vamos ver no que vai dar" em vez de resistência; antídoto direto ao hábito de reclamação
 - [[pessoal/concepts/ocio]] — pausa deliberada para pensar e se conhecer; na Grécia antiga (escolé) era o ponto alto da vida; hoje foi transformado em pecado
 - [[pessoal/concepts/paciencia-ativa]] — paciência que não é espera passiva, mas preparação consciente e aproveitamento máximo do presente enquanto o próximo capítulo não chega
+- [[pessoal/concepts/protocolo-de-foco-diario]] — protocolo prático de ~15 min em dias alternados: manhã de baixa dopamina, treino interoceptivo, eliminação de estímulos, foco sustentado, pausas estratégicas
 - [[pessoal/concepts/reforco-por-razao-variavel]] — padrão de recompensa imprevisível é o mais viciante; base do design de cassinos e feeds; o cérebro não para porque não consegue prever a próxima recompensa
 - [[pessoal/concepts/scroll-infinito]] — mecanismo de interface que elimina sinal de fim; combina tigela sem fundo com reforço variável; desperdiça 1 milhão de vidas/dia segundo seu criador
 - [[pessoal/concepts/vocacao]] — encontro entre o que se faz e o que se ama; o que sustenta nos momentos de colapso externo
@@ -157,6 +160,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 - [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, hábitos e finanças pessoais
 - [[pessoal/entities/autores/natalia-persico]] — criadora de conteúdo; foco em autodisciplina, hábitos e desenvolvimento pessoal
+- [[pessoal/entities/autores/reservatorio-de-dopamina]] — canal brasileiro de neurociência popular; foco, dopamina e atenção
 - [[pessoal/entities/autores/steve-jobs]] — cofundador Apple, NeXT e Pixar; referência em vocação, design e visão de vida
 
 #### Outras
@@ -173,6 +177,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/sources/2026-06-03-o-mecanismo-que-esta-quebrando-seu-cerebro]] — Dr. José Ricardo Gois: scroll infinito, dopamina de antecipação, reforço variável e dessensibilização dopaminérgica
 - [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
 - [[pessoal/sources/2026-05-26-domine-a-autodisciplina-7-habitos]] — Natalia Persico: autodisciplina como autocomando; 7 hábitos práticos incluindo rituais de iniciação e pensamento retrospectivo
+- [[pessoal/sources/2026-07-14-foco-imparavel-reservatorio-dopamina]] — Reservatório de Dopamina: foco como habilidade neuroplástica; paradoxo renascentista, oscilação atencional (noradrenalina), LTP, efeito Bannister e protocolo prático de treino
 
 ### Notas
 *(vazio)*

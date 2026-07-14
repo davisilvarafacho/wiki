@@ -3,9 +3,9 @@ title: "Prática espaçada"
 tipo: concept
 dominio: estudos
 tags: [aprendizado, memoria, tecnicas-de-estudo, spaced-practice, esquecimento]
-fontes: [estudos/sources/2026-05-17-estudar-10x-melhor-emmanuel-nominato]
+fontes: [estudos/sources/2026-05-17-estudar-10x-melhor-emmanuel-nominato, pessoal/sources/2026-07-14-foco-imparavel-reservatorio-dopamina]
 criado: 2026-05-17
-atualizado: 2026-05-17
+atualizado: 2026-07-14
 ---
 
 # Prática espaçada
@@ -26,3 +26,4 @@ Prática espaçada e [[pratica-com-recuperacao]] são técnicas complementares. 
 
 - [[estudos/concepts/pratica-com-recuperacao]] — o mecanismo de recuperação ativa que torna a revisão eficaz
 - [[estudos/concepts/dificuldades-desejadas]] — por que o intervalo precisa gerar algum esforço para ser eficaz
+- [[pessoal/concepts/foco]] — mesmo substrato neural (potencial de longa duração/LTP): sustentar atenção fortalece sinapses da mesma forma que a revisão espaçada fortalece memória

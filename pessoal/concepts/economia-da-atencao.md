@@ -4,8 +4,8 @@ tipo: concept
 dominio: pessoal
 tags: [atenção, tecnologia, algoritmos, manipulação, silêncio, distração]
 criado: 2026-06-03
-atualizado: 2026-06-03
-fontes: [pessoal/sources/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas]
+atualizado: 2026-07-14
+fontes: [pessoal/sources/2026-06-03-o-tedio-e-a-saida-dos-seus-problemas, pessoal/sources/2026-07-14-foco-imparavel-reservatorio-dopamina]
 ---
 
 # Economia da Atenção
@@ -38,3 +38,4 @@ Uma pessoa que pensa é mais difícil de manipular. Uma pessoa que sabe o que se
 - O antídoto individual é o [[pessoal/concepts/ocio]] — recuperar o silêncio deliberado
 - A [[pessoal/concepts/alexitimia]] geracional é, em parte, produto desta economia
 - Ver também [[pessoal/concepts/modo-do-todo-mundo]] — o algoritmo é o "todo mundo" moderno
+- Contraponto histórico: a "atenção renascentista" citada em [[pessoal/concepts/foco]] descreve exatamente o oposto desta economia — um ambiente onde sustentar atenção profunda era condição, não exceção
