@@ -2,7 +2,7 @@
 title: "Conexões cross-domain"
 tipo: meta
 criado: 2026-05-14
-atualizado: 2026-05-14
+atualizado: 2026-07-16
 ---
 
 # Conexões entre domínios
@@ -214,3 +214,10 @@ Esta é, frequentemente, a parte mais valiosa de uma wiki pessoal. Sãoonde a co
 - **Páginas:** [[pessoal/concepts/foco]] ↔ [[estudos/concepts/pratica-espacada]]
 - **Descrição:** Sustentar atenção em foco profundo e revisar conteúdo em intervalos espaçados são, biologicamente, a mesma operação: ambos dependem do potencial de longa duração (LTP), o mecanismo pelo qual conexões sinápticas se fortalecem com uso repetido/sustentado. Treinar foco e treinar memória não são domínios separados — usam a mesma máquina neural.
 - **Detectada em:** 2026-07-14
+
+### Córtex cingulado anterior dorsal ↔ dificuldades desejadas: a mesma lei do esforço
+
+- **Domínios:** pessoal ↔ estudos
+- **Páginas:** [[pessoal/concepts/cortex-cingulado-anterior-dorsal]] ↔ [[estudos/concepts/dificuldades-desejadas]]
+- **Descrição:** O dACC só cresce diante de tarefas que geram resistência real, nunca diante de atividades fáceis ou prazerosas — exatamente o paradoxo das dificuldades desejadas no aprendizado, onde o esforço que "atrapalha" na hora é o que consolida a retenção depois. Disciplina e memória parecem operar sob a mesma lei biológica: sem atrito real, não há fortalecimento.
+- **Detectada em:** 2026-07-16

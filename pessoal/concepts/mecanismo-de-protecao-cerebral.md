@@ -4,8 +4,8 @@ tipo: concept
 dominio: pessoal
 tags: [neurociencia, zona-de-conforto, mindset, vieses-cognitivos]
 criado: 2026-05-17
-atualizado: 2026-05-17
-fontes: [pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo, pessoal/sources/2026-05-17-apagar-medo-de-errar]
+atualizado: 2026-07-16
+fontes: [pessoal/sources/2026-05-17-nada-e-dificil-so-e-novo, pessoal/sources/2026-05-17-apagar-medo-de-errar, pessoal/sources/2026-07-16-melhor-tecnica-disciplina-neurocientista]
 ---
 
 # Mecanismo de Proteção Cerebral
@@ -37,4 +37,6 @@ A distinção entre novidade e dificuldade real é tratada em [[novidade-vs-difi
 
 Uma manifestação específica desse mecanismo é o [[medo-de-errar]]: o cérebro amplifica o custo visível do erro (exposição, julgamento) e oculta o custo invisível da omissão (estagnação). O resultado é que a pessoa se esconde atrás das dúvidas — o que parece prudência, mas é o mecanismo operando.
 
-Ver também: [[novidade-vs-dificuldade]], [[dedicacao-vs-talento]], [[medo-de-errar]], [[zona-de-conforto]], [[habito-de-reclamacao]], [[postura-de-curiosidade]]
+Uma pista sobre o substrato físico desse mecanismo: o [[cortex-cingulado-anterior-dorsal]] é a estrutura que calcula, em tempo real, custo e benefício de enfrentar ou fugir do desconforto — a "vozinha" descrita acima pode ser, em parte, a expressão subjetiva desse cálculo.
+
+Ver também: [[novidade-vs-dificuldade]], [[dedicacao-vs-talento]], [[medo-de-errar]], [[zona-de-conforto]], [[habito-de-reclamacao]], [[postura-de-curiosidade]], [[cortex-cingulado-anterior-dorsal]]

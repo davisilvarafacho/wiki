@@ -2,7 +2,7 @@
 title: "Índice Global"
 tipo: meta
 criado: 2026-05-14
-atualizado: 2026-07-14
+atualizado: 2026-07-16
 ---
 
 # Índice Global
@@ -123,6 +123,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/conectar-os-pontos]] — só é possível ligar experiências passadas em retrospecto; confiança no processo como condição para seguir o coração
 - [[pessoal/concepts/medo-de-errar]] — errar como custo de transformação, não oposto de vencer; o verdadeiro fracasso é nunca se arriscar
 - [[pessoal/concepts/conquista-vs-manutencao]] — distinção entre conquistar (ponto de partida) e manter (trabalho permanente que sustenta o que foi construído)
+- [[pessoal/concepts/cortex-cingulado-anterior-dorsal]] — dACC: estrutura cerebral que regula esforço e disciplina; só cresce diante de desafios reais, nunca de prazer
 - [[pessoal/concepts/dedicacao-vs-talento]] — dificuldade diminui na proporção exata da dedicação; talento é interesse aplicado por tempo suficiente
 - [[pessoal/concepts/dessensibilizacao-dopaminergica]] — superestimulação crônica deregula receptores de dopamina; o mundo real perde o brilho; apatia persistente sem causa aparente
 - [[pessoal/concepts/dopamina]] — neurotransmissor da antecipação (não do prazer); liberado antes da recompensa, na expectativa; base do vício em scroll
@@ -144,6 +145,8 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/concepts/protocolo-de-foco-diario]] — protocolo prático de ~15 min em dias alternados: manhã de baixa dopamina, treino interoceptivo, eliminação de estímulos, foco sustentado, pausas estratégicas
 - [[pessoal/concepts/reforco-por-razao-variavel]] — padrão de recompensa imprevisível é o mais viciante; base do design de cassinos e feeds; o cérebro não para porque não consegue prever a próxima recompensa
 - [[pessoal/concepts/scroll-infinito]] — mecanismo de interface que elimina sinal de fim; combina tigela sem fundo com reforço variável; desperdiça 1 milhão de vidas/dia segundo seu criador
+- [[pessoal/concepts/sistemas-vs-metas]] — vencedores e perdedores compartilham a meta; a diferença é o sistema de treino diário que protege o comportamento
+- [[pessoal/concepts/tecnica-do-nao-zero]] — disciplina se constrói nos dias ruins; se não tem energia faça fácil, se não tem tempo faça curto, mas não deixe de fazer
 - [[pessoal/concepts/vocacao]] — encontro entre o que se faz e o que se ama; o que sustenta nos momentos de colapso externo
 - [[pessoal/concepts/autodisciplina]] — libertação, não privação; autocomando independente de motivação; a vida sem disciplina é servidão às próprias compulsões
 - [[pessoal/concepts/pensamento-retrospectivo]] — planejar de trás para frente a partir do objetivo; baseado em evidência própria, não em intenção
@@ -156,6 +159,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/entities/autores/byung-chul-han]] — filósofo sul-coreano/alemão; "sociedade da autoexploração"; citado (não ingerido diretamente), stub
 - [[pessoal/entities/autores/cultura-renegada]] — canal brasileiro de YouTube Shorts; conteúdo motivacional sobre mindset, medo de errar e zona de conforto
 - [[pessoal/entities/autores/for-purpose-driven-men]] — canal YouTube; conteúdo motivacional cristão para homens; foco em propósito e perseverança
+- [[pessoal/entities/autores/gabriel-tortela]] — psicólogo clínico, PhD em neurociência (USP); disciplina como músculo neural (dACC), procrastinação
 - [[pessoal/entities/autores/jose-ricardo-gois]] — Dr. José Ricardo Gois; psicologia e filosofia aplicada; autoconhecimento, ócio, alexitimia e economia da atenção
 - [[pessoal/entities/autores/luana-carolina]] — criadora de conteúdo brasileira; desenvolvimento pessoal, comunicação e presença digital
 - [[pessoal/entities/autores/pinho]] — criador de conteúdo brasileiro; desenvolvimento pessoal, minimalismo, hábitos e finanças pessoais
@@ -178,6 +182,7 @@ Catálogo de todas as páginas da wiki, agrupado por domínio. Este arquivo é o
 - [[pessoal/sources/2026-05-17-o-segredo-das-pessoas-confiantes]] — Luana Carolina: o custo de fazer algo antes de ser bom; fingir até se tornar; auto-sabotagem interna
 - [[pessoal/sources/2026-05-26-domine-a-autodisciplina-7-habitos]] — Natalia Persico: autodisciplina como autocomando; 7 hábitos práticos incluindo rituais de iniciação e pensamento retrospectivo
 - [[pessoal/sources/2026-07-14-foco-imparavel-reservatorio-dopamina]] — Reservatório de Dopamina: foco como habilidade neuroplástica; paradoxo renascentista, oscilação atencional (noradrenalina), LTP, efeito Bannister e protocolo prático de treino
+- [[pessoal/sources/2026-07-16-melhor-tecnica-disciplina-neurocientista]] — Gabriel Tortela: disciplina como músculo (dACC); técnica "1, 2, 3, já", técnica do não-zero, sistemas vs. metas
 
 ### Notas
 *(vazio)*

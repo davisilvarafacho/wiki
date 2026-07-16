@@ -2,7 +2,7 @@
 title: "Log da Wiki"
 tipo: meta
 criado: 2026-05-14
-atualizado: 2026-07-14
+atualizado: 2026-07-16
 ---
 
 # Log
@@ -545,4 +545,32 @@ Achados e correções:
 - `_meta/index.md` atualizado com as 4 páginas novas.
 
 Sem achados: contradições entre fontes, staleness (wiki tem só ~2 meses), páginas órfãs além das listadas acima.
+
+---
+
+## [2026-07-16 00:00] ingest | Neurocientista REVELA: A MELHOR técnica para ter disciplina (que atrofia como músculo) — Gabriel Tortela, YouTube
+
+Fonte: vídeo YouTube — https://youtu.be/O1dJ_cFQStk
+Autor: Gabriel Tortela — psicólogo clínico, PhD em neurociência (USP)
+
+Páginas criadas:
+- `raw/pessoal/2026-07-16-melhor-tecnica-disciplina-neurocientista.md`
+- `pessoal/sources/2026-07-16-melhor-tecnica-disciplina-neurocientista.md`
+- `pessoal/entities/autores/gabriel-tortela.md`
+- `pessoal/concepts/cortex-cingulado-anterior-dorsal.md`
+- `pessoal/concepts/tecnica-do-nao-zero.md`
+- `pessoal/concepts/sistemas-vs-metas.md`
+
+Páginas atualizadas:
+- `pessoal/concepts/autodisciplina.md` — nova seção "O substrato neural"; cross-links para os 3 conceitos novos
+- `pessoal/concepts/rituais-de-iniciacao.md` — nova seção sobre o gatilho "1, 2, 3, já" como complemento ao ritual planejado
+- `pessoal/concepts/zona-de-conforto.md` — evidência de neuroimagem (dACC) para a dinâmica de expansão por exposição
+- `pessoal/concepts/mecanismo-de-protecao-cerebral.md` — nota sobre o dACC como possível substrato físico da "vozinha" de defesa
+- `_meta/index.md` — 6 páginas novas indexadas
+- `_meta/connections.md` — nova conexão cross-domain: dACC ↔ dificuldades desejadas (mesma lei do esforço, disciplina e memória)
+
+Destaques do ingest:
+- A tese central (dACC como "músculo da disciplina", citando revisão na revista *Cortex*) nomeia uma estrutura cerebral concreta para o que a wiki já vinha descrevendo funcionalmente em [[pessoal/concepts/mecanismo-de-protecao-cerebral]] e [[pessoal/concepts/zona-de-conforto]] — boa oportunidade de consolidar essas três fontes numa síntese futura sobre a neurociência da disciplina.
+- Técnica "1, 2, 3, já" é um gatilho de ativação no momento da execução, distinto (e complementar) aos [[pessoal/concepts/rituais-de-iniciacao|rituais de iniciação]] já registrados, que são planejados com antecedência.
+- Segunda fonte de neurociência popular no domínio pessoal (após [[pessoal/entities/autores/reservatorio-de-dopamina]]) — mas com citação de fonte acadêmica primária, ainda que sem link direto ao artigo.
 
