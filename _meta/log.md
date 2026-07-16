@@ -361,7 +361,6 @@ Destaques do ingest:
 - Glue records: mecanismo específico e elegante para resolver dependência circular de bootstrapping
 - TTL como variável crítica em migrações DNS — ponto prático importante
 
-
 ## [2026-05-14] ingest | What is a Tech Lead? (Josh Hornby)
 
 Fonte: `raw/tecnico/2026-05-14 What is a Tech Lead.md`
@@ -573,4 +572,3 @@ Destaques do ingest:
 - A tese central (dACC como "músculo da disciplina", citando revisão na revista *Cortex*) nomeia uma estrutura cerebral concreta para o que a wiki já vinha descrevendo funcionalmente em [[pessoal/concepts/mecanismo-de-protecao-cerebral]] e [[pessoal/concepts/zona-de-conforto]] — boa oportunidade de consolidar essas três fontes numa síntese futura sobre a neurociência da disciplina.
 - Técnica "1, 2, 3, já" é um gatilho de ativação no momento da execução, distinto (e complementar) aos [[pessoal/concepts/rituais-de-iniciacao|rituais de iniciação]] já registrados, que são planejados com antecedência.
 - Segunda fonte de neurociência popular no domínio pessoal (após [[pessoal/entities/autores/reservatorio-de-dopamina]]) — mas com citação de fonte acadêmica primária, ainda que sem link direto ao artigo.
-

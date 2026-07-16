@@ -10,7 +10,7 @@ tipo_fonte: youtube-video
 tags: [desenvolvimento-pessoal, confiança, processo, fingir-ate-se-tornar, criacao-de-conteudo]
 ---
 
-# O segredo das pessoas confiantes...
+# O segredo das pessoas confiantes
 
 **Autora:** [[pessoal/entities/autores/luana-carolina]]
 **Canal YouTube:** Luana Carolina

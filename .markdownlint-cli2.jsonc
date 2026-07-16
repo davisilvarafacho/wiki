@@ -1,0 +1,16 @@
+{
+  // Config de regras compartilhada (title/heading duplo, prosa sem
+  // quebra de linha, convenções de placeholder, etc).
+  "config": ".markdownlint.yaml",
+
+  "globs": ["**/*.md"],
+
+  "ignores": [
+    // raw/ é imutável (CLAUDE.md) — fontes coladas de fora, formatação
+    // fora do nosso controle; nunca seria corrigido de qualquer forma.
+    "raw/**",
+    // Gerado pelo plugin Obsidian Excalidraw; não é prosa.
+    "Excalidraw/**",
+    "node_modules/**"
+  ]
+}

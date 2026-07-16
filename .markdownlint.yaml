@@ -1,0 +1,56 @@
+# Configuração do markdownlint para a wiki.
+# Regras desligadas por serem incompatíveis com o estilo de escrita adotado
+# (prosa em linha única, callouts do Obsidian, links [[wiki-style]]).
+default: true
+
+# Prosa não é quebrada em 80/120 colunas — parágrafos ficam em linha única.
+MD013: false
+
+# Callouts do Obsidian (`> [!note]`) e citações longas às vezes repetem
+# a primeira palavra da linha anterior; regra gera falso positivo.
+MD033: false
+
+# Frontmatter YAML + "# Título" logo em seguida é o padrão de toda página;
+# ainda assim mantido como true (default) — checagem de sanidade real.
+MD041: true
+
+# Duplicar títulos como "## Sumário" só é problema se estiverem no mesmo
+# nível dentro do mesmo documento — mas nunca há dois "## Sumário" no
+# mesmo arquivo, então mantemos a regra e restringimos a irmãos diretos.
+MD024:
+  siblings_only: true
+
+# Links no estilo [[wiki-link]] não são URLs — não faz sentido cobrar
+# estilo de link "reference" vs "inline".
+MD054: false
+
+# Toda página tem `title:` no frontmatter E um "# Título" logo abaixo —
+# é o padrão obrigatório do CLAUDE.md, não título duplicado.
+MD025:
+  front_matter_title: ""
+
+# Citações de múltiplos parágrafos (`>` com linha em branco entre eles)
+# são estilo deliberado em resumos de fonte com várias citações.
+MD028: false
+
+# Listas e blocos de código sem linha em branco ao redor: padrão já
+# consolidado em dezenas de páginas antigas; não vale a pena reformatar
+# retroativamente só para satisfazer a regra.
+MD022: false
+MD032: false
+
+# Estilo de espaçamento em tabelas markdown varia entre páginas antigas;
+# cosmético, não afeta renderização.
+MD060: false
+
+# "**URL:** https://..." é o padrão de metadado usado em toda página de
+# fonte — não faz sentido exigir <> ou [texto](link) nessas linhas.
+MD034: false
+
+# "*(vazio)*" é o placeholder padrão de seção ainda não preenchida em
+# todo _index.md — é corpo de texto, não um heading disfarçado.
+MD036: false
+
+# Blocos de diagrama ASCII (estrutura de pastas, árvores) não são código
+# executável; não vale a pena forçar uma linguagem neles.
+MD040: false

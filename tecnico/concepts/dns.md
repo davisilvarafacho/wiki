@@ -29,15 +29,17 @@ Quando uma aplicação precisa resolver `example.com`:
 **2. Cache da aplicação** — browsers (Chrome, Firefox) mantêm cache DNS próprio. Se o mapeamento estiver lá, resolve localmente.
 
 **3. Cache do SO + hosts file** — o cliente DNS do SO verifica:
-   - Cache local (Windows: `dnscache`; macOS: `mDNSResponder`; Linux: NSS)
-   - Arquivo `/etc/hosts` (mapeamentos manuais, ex: `127.0.0.1 localhost`)
+
+- Cache local (Windows: `dnscache`; macOS: `mDNSResponder`; Linux: NSS)
+- Arquivo `/etc/hosts` (mapeamentos manuais, ex: `127.0.0.1 localhost`)
 
 **4. Recursive Resolver** — se nada acima resolver, o SO encaminha a query ao servidor DNS configurado. Esse servidor roda um **Recursive Resolver** (ex: BIND, Unbound) que conduz a caminhada completa pela hierarquia DNS.
 
 **5. Resolução recursiva** — o resolver percorre três níveis:
-   - **Root servers** → retorna referência ao TLD server correto (ex: `.com`)
-   - **TLD server** → retorna referência ao authoritative name server do domínio
-   - **Authoritative name server** → retorna o registro final (A, AAAA, CNAME, MX...)
+
+- **Root servers** → retorna referência ao TLD server correto (ex: `.com`)
+- **TLD server** → retorna referência ao authoritative name server do domínio
+- **Authoritative name server** → retorna o registro final (A, AAAA, CNAME, MX...)
 
 ## Hierarquia de servidores
 

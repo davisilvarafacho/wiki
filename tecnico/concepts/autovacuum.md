@@ -28,6 +28,7 @@ Processo de manutenção automática do [[tecnico/entities/postgresql|PostgreSQL
 - **`autovacuum_analyze_scale_factor`** / **`autovacuum_analyze_threshold`**: equivalentes para disparo de atualização de estatísticas.
 
 > **Prática recomendada:** sobrescrever `autovacuum_vacuum_scale_factor` por tabela em tabelas grandes, usando valor menor (ex: `0.01`).
+>
 > ```sql
 > ALTER TABLE orders SET (autovacuum_vacuum_scale_factor = 0.01);
 > ```

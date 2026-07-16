@@ -12,7 +12,7 @@ criado: 2026-06-03
 atualizado: 2026-06-03
 ---
 
-# Give God 56 Seconds.. Don't Skip This Message.
+# Give God 56 Seconds — Don't Skip This Message
 
 **Canal:** For Purpose Driven Men | **Duração:** ~56s
 **URL:** https://www.youtube.com/watch?v=VcVTOR7zXrM
