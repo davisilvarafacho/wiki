@@ -10,3 +10,8 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+
+# _mcp (server MCP em Python)
+_mcp/.venv/
+_mcp/**/__pycache__/
+_mcp/*.egg-info/
